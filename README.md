@@ -6,7 +6,6 @@ Welcome to the **Web3 Security Resources Hub**! This repository is your one-stop
 
 ![image](https://github.com/user-attachments/assets/5d1c0f98-6599-485b-9630-9e15ca741a81)
 
-
 ## 📚 Table of Contents
 
 1. [🌐 Roadmaps & Learning Paths](#-roadmaps--learning-paths)
@@ -32,16 +31,17 @@ Welcome to the **Web3 Security Resources Hub**! This repository is your one-stop
 
 ---
 
-
 ## 🌟 Featured Resources
 
 Here are some standout resources to get you started:
 
 - **Mastering Ethereum Book on GitHub**
+
   - [Ethereum Book](https://github.com/ethereumbook/ethereumbook)
   - [Awesome Ethereum Security](https://github.com/crytic/awesome-ethereum-security)
 
 - **Web3 Security Libraries**
+
   - [Immunefi Team Web3 Security Library](https://github.com/immunefi-team/Web3-Security-Library)
   - [Quillhash Solidity Attack Vectors](https://github.com/Quillhash/Solidity-Attack-Vectors)
 
@@ -125,7 +125,6 @@ Stay updated with the latest trends, vulnerabilities, analyses, and curated news
   - [Chainabuse](https://www.chainabuse.com)
   - [CryptoScamDB](https://cryptoscamdb.org)
   - [Quill Audits Hackerboard](https://www.quillaudits.com/hackerboard)
-  
 - **Newsletters**
   - [Web3 Security Newsletter](https://web3secnews.substack.com/)
   - [Latest Web3 Security News and Resources Hub](https://www.web3sec.news/)
@@ -172,7 +171,7 @@ A collection of tools and frameworks to aid in Web3 security assessments and aud
 - [Web3 Security Tools by Quillhash](https://github.com/Quillhash/Web3-Security-Tools)
 - [SmartBugs Automated Framework](https://github.com/smartbugs/smartbugs)
 - [Smart Contract Auditor Tools & Techniques](https://github.com/shanzson/Smart-Contract-Auditor-Tools-and-Techniques)
-- [AuditBase](https://www.auditbase.com/) *(Paid)*
+- [AuditBase](https://www.auditbase.com/) _(Paid)_
 - [Ackee-Blockchain Tests IPO](https://github.com/Ackee-Blockchain/tests-ipor)
 - [C4udit Smart Contract Vulnerability Scanner](https://github.com/byterocket/c4udit)
 - [Regast Public](https://github.com/MiloTruck/regast-public)
@@ -256,7 +255,7 @@ Explore the intricacies and security aspects of Zero-Knowledge Proofs in Web3.
 
 Guidelines to secure proxy contracts in smart contract development.
 
-- [Security Guide for Proxies](https://proxies.yacademy.dev/pages/security-guide/)
+- [Security Guide for Proxies](https://proxies.yacademy.dev/pages/Security-Guide/)
 - [AuditZK: Tornado Cash Example](https://mixbytes.io/blog/audit-zk-application-example-tornado-cash)
 
 ---
@@ -331,9 +330,7 @@ Research papers and academic resources on smart contract security and blockchain
 The **Sway language** is a domain-specific language for the **Fuel network**. It is built to ensure smart contract security, and here are some key resources for learning and mastering Sway from a security auditing perspective.
 
 - [Introduction to Sway Language Security Audit](https://exvul.com/introduction-to-the-sway-language-security-audit/) – An in-depth introduction to the security audits of Sway language in the Fuel ecosystem.
-  
 - [Mastering Sway Analyzer](https://medium.com/@angelos404/mastering-sway-analyzer-27379d7903db) – An essential guide to using the Sway Analyzer to enhance smart contract security.
-  
 - [Sway Standards - Security Information (SRC-11)](https://docs.fuel.network/docs/sway-standards/src-11-security-information/) – Official documentation on security standards for Sway language in Fuel Network.
 
 - [Top 5 Bugs from the Fuel Attackathon](https://medium.com/immunefi/top-5-bugs-from-the-fuel-attackathon-80eda8920505) – A breakdown of the most significant security bugs discovered during the ImmuneFi Fuel Attackathon, providing insights into potential vulnerabilities in Sway-based projects.
@@ -372,4 +369,4 @@ Thank you for visiting the **Web3 Security Resources Hub**! Happy learning and s
 
 ---
 
-*This repository is maintained by Raiders. If you find any broken links or have suggestions for improvement, please let us know!*
+_This repository is maintained by Raiders. If you find any broken links or have suggestions for improvement, please let us know!_
