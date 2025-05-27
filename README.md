@@ -255,6 +255,7 @@ Explore the intricacies and security aspects of Zero-Knowledge Proofs in Web3.
 
 Guidelines to secure proxy contracts in smart contract development.
 
+- [Understanding Proxies](https://www.rareskills.io/proxy-patterns#proxy-patterns-course)
 - [Security Guide for Proxies](https://proxies.yacademy.dev/pages/Security-Guide/)
 - [AuditZK: Tornado Cash Example](https://mixbytes.io/blog/audit-zk-application-example-tornado-cash)
 
