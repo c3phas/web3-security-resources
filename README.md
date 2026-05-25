@@ -9,6 +9,21 @@ This repository is no longer a giant bookmark dump. It is a GitHub Pages
 knowledge base for people who want to learn, audit, build, launch, investigate,
 and operate Web3 systems safely.
 
+<p>
+  <strong>Best experience:</strong>
+  Browse the full mapped site with roadmaps, resource pages, diagrams, and
+  maintained links:
+  <a href="https://raiders0786.github.io/web3-security-resources/">
+    raiders0786.github.io/web3-security-resources
+  </a>
+</p>
+
+<p>
+  <a href="https://raiders0786.github.io/web3-security-resources/">
+    <img src="assets/github/homepage-preview.png" alt="Web3 Security Resources 2026 homepage preview">
+  </a>
+</p>
+
 ## Start Here
 
 | Goal | Best entry point |
