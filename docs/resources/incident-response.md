@@ -9,6 +9,9 @@
 | [Immunefi Disclosure Guidelines](https://immunefi.com/disclosure-guidelines/) | Use in real audits | Disclosure expectations and vulnerability handling. |
 | [OpenZeppelin Defender](https://www.openzeppelin.com/defender) | Use in real audits | Emergency admin operations and monitoring. |
 | [Forta](https://forta.org/) | Use in real audits | On-chain detection bots. |
+| [zeroShadow](https://www.zeroshadow.io/) | Paid / certification | Web3 incident response, investigations, threat intelligence, and vSOC. |
+| [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel) | Use in real audits | Free alert feed for Web3 incidents, DeFi exploits, supply-chain threats, and operational-security updates. |
+| [DigiBastion Threat Intel Subscribe](https://www.digibastion.com/threat-intel?tab=subscribe) | Use in real audits | Daily, weekly, or immediate email alerts for security engineers, founders, and developers. |
 
 ## Minimum IR Runbook
 

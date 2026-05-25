@@ -32,6 +32,9 @@ practical security value, maintenance, accessibility, and reputation.
 | [Immunefi](https://immunefi.com/) | Bug bounty | Protocol | Bounty hosting and disclosure workflows. |
 | [Sherlock](https://www.sherlock.xyz/) | Contests | Auditor | Competitive audits and coverage markets. |
 | [Cantina](https://cantina.xyz/) | Contests | Auditor | Competitive audits, bounties, and private engagements. |
+| [Pashov Audits](https://github.com/pashov/audits) | Reports | Auditor | Large public archive of independent audit reports. |
+| [Pashov Skills](https://github.com/pashov/skills) | AI-assisted audit | EVM | Practical Solidity auditor and x-ray skills. |
+| [Burp Suite](https://portswigger.net/burp) | Web/API testing | Full-stack | Baseline proxy for offchain auth, API, and admin-surface testing. |
 
 ## Situational / Advanced
 
@@ -45,6 +48,9 @@ practical security value, maintenance, accessibility, and reputation.
 | [Move Book](https://move-book.com/) | Language | Move | Practical Move language reference. |
 | [Anchor Docs](https://www.anchor-lang.com/docs) | Framework | Solana | Solana program development and account constraints. |
 | [Token-2022](https://spl.solana.com/token-2022) | Token standard | Solana | Extension-heavy token surface. |
+| [Kontrol](https://kontrol.runtimeverification.com/) | Formal methods | EVM | Foundry-integrated formal verification using K semantics. |
+| [ItyFuzz](https://github.com/fuzzland/ityfuzz) | Fuzzing | EVM | Snapshot-based fuzzing and exploit-generation research. |
+| [TestMachine EVMbench](https://testmachine.ai/evmbench/) | AI benchmark | AI-assisted | Useful benchmark context for EVM exploit reasoning claims. |
 
 ## Paid / Certification
 
@@ -54,6 +60,11 @@ practical security value, maintenance, accessibility, and reputation.
 | [AuditBase](https://www.auditbase.com/) | Training/tools | EVM | Paid security learning and scanning options. |
 | [Offensive Security](https://www.offsec.com/) | General security | Full-stack | Useful for web, infra, and attacker methodology. |
 | [SANS SEC554](https://www.sans.org/cyber-security-courses/blockchain-smart-contract-security/) | Training | Protocol | Structured paid blockchain and smart contract security training. |
+| [Octane Security](https://www.octane.security/) | AI security | EVM | AI-assisted security analysis for critical code. |
+| [TRM Labs](https://www.trmlabs.com/) | Blockchain intelligence | Compliance | Investigations, monitoring, and wallet risk intelligence. |
+| [Chainalysis](https://www.chainalysis.com/) | Blockchain intelligence | Compliance | Investigations, compliance, and ecosystem intelligence. |
+| [Elliptic](https://www.elliptic.co/) | Blockchain intelligence | Compliance | Crypto risk intelligence and wallet screening. |
+| [zeroShadow](https://www.zeroshadow.io/) | Incident response | Protocol | Web3 IR, investigations, threat intel, and vSOC. |
 
 ## Watchlist
 
@@ -64,5 +75,7 @@ practical security value, maintenance, accessibility, and reputation.
 | [GoPlus Security](https://gopluslabs.io/) | User protection | Full-stack | Transaction and token risk APIs for wallet/app defenses. |
 | [Blockaid](https://www.blockaid.io/) | User protection | Full-stack | Wallet and dapp threat detection. |
 | [Hypernative](https://www.hypernative.io/) | Monitoring | Protocol | Real-time risk and exploit detection platform. |
+| [VANTAGE by DigiBastion](https://vantage.digibastion.com/) | External trust monitoring | Full-stack | Maintainer-labeled monitoring for domain, DNS, frontend, phishing, and Web3 trust risk. |
+| [Pashov AI Web3 Security](https://github.com/pashov/ai-web3-security) | AI security | AI-assisted | Source list for AI audit tools, skills, and commercial products. |
 
 The machine-readable catalog lives in [resources.yml](../data/resources.yml).

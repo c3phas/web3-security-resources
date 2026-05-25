@@ -14,6 +14,7 @@ checklist.
 | [GitHub Security Hardening](https://docs.github.com/en/code-security) | Use in real audits | Repository, secret scanning, and dependency security. |
 | [Google Advanced Protection](https://landing.google.com/advancedprotection/) | Situational / advanced | High-risk account protection. |
 | [DigiBastion](https://digibastion.com/) | Watchlist | Maintainer-labeled domain, DNS, and OPSEC posture resource. |
+| [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel) | Use in real audits | OPSEC, supply-chain, personal-protection, and Web3 alert feed. |
 
 ## Minimum Controls
 

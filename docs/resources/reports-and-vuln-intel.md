@@ -12,6 +12,7 @@
 | [OpenZeppelin Audit Reports](https://www.openzeppelin.com/security-audits) | Use in real audits | Mature report format and remediation style. |
 | [Trail of Bits Publications](https://github.com/trailofbits/publications) | Use in real audits | Public reports and research. |
 | [ConsenSys Diligence Audits](https://consensys.io/diligence/audits/) | Use in real audits | EVM audit reports and tooling references. |
+| [Pashov Audits](https://github.com/pashov/audits) | Use in real audits | Large public archive of independent audit reports. |
 
 ## Incident and Exploit Study
 
@@ -23,6 +24,7 @@
 | [ChainSecurity Blog](https://www.chainsecurity.com/blog) | Use in real audits | Research and audit insights. |
 | [SlowMist Hacked Archive](https://hacked.slowmist.io/) | Use in real audits | Incident database and trend tracking. |
 | [BlockSec Blog](https://blocksec.com/blog) | Use in real audits | Exploit analysis and transaction traces. |
+| [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel) | Use in real audits | Web3, DeFi, supply-chain, and OPSEC alert feed with subscriptions. |
 | [PeckShield Alerts](https://twitter.com/peckshield) | Watchlist | Fast incident signal; verify independently. |
 
 ## How to Study a Report

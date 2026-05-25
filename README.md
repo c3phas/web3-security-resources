@@ -1,11 +1,12 @@
 # Web3 Security Resources 2026
 
-An opinionated, maintained learning hub for Web3 security in 2026.
+Curated Web3 security hub by **Raiders0786 / DigiBastion**: roadmaps,
+audit tools, AI workflows, fuzzing, formal verification, offchain security,
+incident response, compliance, and launch checklists.
 
 This repository is no longer a giant bookmark dump. It is a GitHub Pages
-knowledge base with curated roadmaps, resource tiers, and readiness checklists
-for people who want to learn, audit, build, launch, and operate Web3 systems
-safely.
+knowledge base for people who want to learn, audit, build, launch, investigate,
+and operate Web3 systems safely.
 
 ## Start Here
 
@@ -17,18 +18,31 @@ safely.
 | I work on Move, Cairo, or ZK systems | [Move](docs/roadmaps/move-auditor.md), [Cairo/Starknet](docs/roadmaps/cairo-starknet-auditor.md), [ZK Security](docs/roadmaps/zk-security.md) |
 | I run security for a protocol | [Protocol Security Engineer](docs/roadmaps/protocol-security-engineer.md) |
 | I secure a Web3 frontend or app stack | [Full-Stack Web3 Security](docs/roadmaps/full-stack-web3-security.md) |
-| I want checklists before launch | [Security Checklists](docs/checklists/index.md) |
+| I want AI-assisted audit workflows | [AI-Assisted Auditor](docs/roadmaps/ai-assisted-auditor.md) |
+| I want tools by analysis method | [Analysis Methods](docs/resources/analysis-methods.md) |
+| I want offchain or compliance coverage | [Offchain Security](docs/resources/offchain-security.md), [Compliance & Investigations](docs/resources/compliance-and-investigations.md) |
 
-## What Changed
+## What This Hub Covers
 
-- Added a MkDocs Material site for GitHub Pages.
-- Reorganized resources by audience, maturity, and audit usefulness.
-- Added roadmaps for EVM, Solana, Move, Cairo/Starknet, ZK, protocol security,
-  full-stack Web3 security, and AI-assisted auditing.
-- Added checklists for audit readiness, launch, post-launch operations,
-  frontend security, supply chain, multisigs, wallets, SOC/IR, and bug bounties.
-- Added curated resource metadata with verification dates and tier labels.
-- Added GitHub Actions for Pages deployment and weekly link checking.
+- Smart contract auditing across Solidity/EVM, Solana/Rust, Move, Cairo/Starknet, and ZK.
+- Static analysis, fuzzing, invariant testing, symbolic execution, formal verification, and dynamic analysis.
+- AI-assisted auditing with benchmark caveats and verification-first workflows.
+- Public reports, vulnerability intelligence, CTFs, exploit reproduction, and research.
+- Frontend, DNS, wallet UX, API, cloud, CI/CD, dependency, and supply-chain security.
+- Monitoring, incident response, investigations, compliance, sanctions/AML tooling, and launch readiness.
+
+## High-Signal Resources
+
+- [OWASP Smart Contract Top 10 2026](https://owasp.org/www-project-smart-contract-top-10/)
+- [OWASP Smart Contract Security Verification Standard](https://scs.owasp.org/SCSVS/)
+- [OpenZeppelin Readiness Guide](https://www.openzeppelin.com/readiness-guide)
+- [SEAL Frameworks](https://frameworks.securityalliance.org/)
+- [Solodit](https://solodit.cyfrin.io/)
+- [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs)
+- [Pashov AI Web3 Security](https://github.com/pashov/ai-web3-security)
+- [TestMachine EVMbench](https://testmachine.ai/evmbench/)
+- [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel)
+- [VANTAGE by DigiBastion](https://vantage.digibastion.com/)
 
 ## Resource Tiers
 
@@ -37,6 +51,16 @@ safely.
 - **Situational / advanced**: Specialized material for specific systems or risks.
 - **Paid / certification**: Useful but not required; cost or access may limit use.
 - **Watchlist**: Promising, niche, or changing quickly; verify before relying on it.
+
+## Maintainer
+
+Maintained by **Raiders0786 / DigiBastion**.
+
+- X: [@__Raiders](https://x.com/__Raiders)
+- Telegram: [t.me/raiders0786](https://t.me/raiders0786)
+- DigiBastion: [digibastion.com](https://digibastion.com/)
+- DigiBastion Threat Intel: [daily, weekly, or immediate alerts](https://www.digibastion.com/threat-intel?tab=subscribe)
+- VANTAGE: [vantage.digibastion.com](https://vantage.digibastion.com/)
 
 ## Local Development
 

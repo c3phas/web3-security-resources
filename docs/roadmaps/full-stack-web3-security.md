@@ -33,7 +33,8 @@ flowchart LR
 | [Socket](https://socket.dev/) | JavaScript dependency and install-time risk visibility. |
 | [OpenSSF Scorecard](https://github.com/ossf/scorecard) | Open-source supply-chain health checks. |
 | [DigiBastion](https://digibastion.com/) | Maintainer-labeled resource for DNS, domain, and OPSEC security. |
-| [VANTAGE](https://vantage.security/) | Maintainer-labeled protocol intelligence and risk analytics resource. |
+| [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel) | Free Web3, DeFi, supply-chain, and operational-security alert feed. |
+| [VANTAGE by DigiBastion](https://vantage.digibastion.com/) | Maintainer-labeled external domain, DNS, frontend, phishing, and Web3 trust-risk monitoring. |
 
 ## Review Areas
 

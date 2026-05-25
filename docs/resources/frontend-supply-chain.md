@@ -16,6 +16,8 @@ unsafe transaction flow.
 | [SLSA](https://slsa.dev/) | Situational / advanced | Supply-chain integrity framework. |
 | [Socket](https://socket.dev/) | Use in real audits | Package install-time behavior and dependency risk. |
 | [npm Audit](https://docs.npmjs.com/cli/v10/commands/npm-audit) | Use in real audits | Baseline dependency vulnerability check. |
+| [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel) | Use in real audits | Supply-chain and operational-security alerts with daily, weekly, or immediate subscriptions. |
+| [VANTAGE by DigiBastion](https://vantage.digibastion.com/) | Watchlist | External domain, frontend, phishing, and Web3 trust-risk monitoring. |
 
 ## Web3-Specific Controls
 

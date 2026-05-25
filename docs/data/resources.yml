@@ -486,11 +486,182 @@
   why_it_matters: Maintainer-labeled resource for DNS, domain, and OPSEC posture.
   status: maintainer_project
 - title: VANTAGE
-  url: https://vantage.security/
+  url: https://vantage.digibastion.com/
   category: protocol_intelligence
-  track: protocol
+  track: protocol,full_stack
   level: watchlist
   free_or_paid: free
   last_verified: 2026-05-25
-  why_it_matters: Maintainer-labeled protocol intelligence and risk analytics resource.
+  why_it_matters: Maintainer-labeled external domain, DNS, frontend, phishing, and Web3 trust-risk monitoring.
   status: maintainer_project
+- title: DigiBastion Threat Intel
+  url: https://www.digibastion.com/threat-intel
+  category: threat_intelligence
+  track: protocol,full_stack,incident_response
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Maintainer-labeled Web3, DeFi, supply-chain, and operational-security feed with alert subscriptions.
+  status: maintainer_project
+- title: DigiBastion Threat Intel Subscribe
+  url: https://www.digibastion.com/threat-intel?tab=subscribe
+  category: threat_intelligence
+  track: protocol,full_stack,incident_response
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Free daily, weekly, or immediate email alerts for founders, developers, and security engineers.
+  status: maintainer_project
+- title: Pashov Audits
+  url: https://github.com/pashov/audits
+  category: reports
+  track: auditor
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Large public archive of independent smart contract audit reports.
+  status: active
+- title: Pashov Skills
+  url: https://github.com/pashov/skills
+  category: ai_security
+  track: evm,ai_assisted
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Solidity auditor and x-ray skills for AI-assisted security review.
+  status: active
+- title: Pashov AI Web3 Security
+  url: https://github.com/pashov/ai-web3-security
+  category: ai_security
+  track: ai_assisted
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Curated list of AI Web3 security tools, skills, and commercial products.
+  status: active
+- title: Octane Security
+  url: https://www.octane.security/
+  category: ai_security
+  track: evm,ai_assisted
+  level: paid_certification
+  free_or_paid: paid
+  last_verified: 2026-05-25
+  why_it_matters: AI-assisted security analysis for mission-critical code.
+  status: active
+- title: TestMachine EVMbench
+  url: https://testmachine.ai/evmbench/
+  category: ai_benchmark
+  track: evm,ai_assisted
+  level: watchlist
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Benchmark context for evaluating AI EVM exploit reasoning claims.
+  status: active
+- title: OpenAI EVMbench
+  url: https://openai.com/index/introducing-evmbench/
+  category: ai_benchmark
+  track: evm,ai_assisted
+  level: watchlist
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Benchmark framing for EVM exploit reasoning and generation.
+  status: active
+- title: Nethermind AuditAgent
+  url: https://auditagent.nethermind.io/
+  category: ai_security
+  track: ai_assisted
+  level: watchlist
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: AI audit agent for smart contract review workflows.
+  status: active
+- title: audit.new
+  url: https://audit.new/
+  category: ai_security
+  track: ai_assisted
+  level: watchlist
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: AI-assisted audit workflow entry point.
+  status: active
+- title: Kontrol
+  url: https://kontrol.runtimeverification.com/
+  category: formal_methods
+  track: evm
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Foundry-integrated formal verification using K semantics.
+  status: active
+- title: ItyFuzz
+  url: https://github.com/fuzzland/ityfuzz
+  category: fuzzing
+  track: evm
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Snapshot-based smart contract fuzzing and exploit-generation research.
+  status: active
+- title: Burp Suite
+  url: https://portswigger.net/burp
+  category: offchain_security
+  track: full_stack
+  level: must_learn
+  free_or_paid: freemium
+  last_verified: 2026-05-25
+  why_it_matters: Baseline web and API testing proxy for offchain review.
+  status: active
+- title: OWASP ZAP
+  url: https://www.zaproxy.org/
+  category: offchain_security
+  track: full_stack
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Open-source web application proxy and scanner.
+  status: active
+- title: OWASP API Security Top 10
+  url: https://owasp.org/www-project-api-security/
+  category: offchain_security
+  track: full_stack
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: API authorization, abuse, and data-exposure risk taxonomy.
+  status: active
+- title: TRM Labs
+  url: https://www.trmlabs.com/
+  category: compliance
+  track: investigations,protocol
+  level: paid_certification
+  free_or_paid: paid
+  last_verified: 2026-05-25
+  why_it_matters: Blockchain intelligence, wallet screening, investigations, and risk monitoring.
+  status: active
+- title: Chainalysis
+  url: https://www.chainalysis.com/
+  category: compliance
+  track: investigations,protocol
+  level: paid_certification
+  free_or_paid: paid
+  last_verified: 2026-05-25
+  why_it_matters: Blockchain analytics, investigations, compliance, and ecosystem intelligence.
+  status: active
+- title: Elliptic
+  url: https://www.elliptic.co/
+  category: compliance
+  track: investigations,protocol
+  level: paid_certification
+  free_or_paid: paid
+  last_verified: 2026-05-25
+  why_it_matters: Crypto risk intelligence, wallet screening, and investigation workflows.
+  status: active
+- title: zeroShadow
+  url: https://www.zeroshadow.io/
+  category: incident_response
+  track: investigations,incident_response
+  level: paid_certification
+  free_or_paid: paid
+  last_verified: 2026-05-25
+  why_it_matters: Web3 incident response, investigations, threat intelligence, and vSOC.
+  status: active

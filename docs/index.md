@@ -1,9 +1,10 @@
 # Web3 Security Resources 2026
 
-This guide is a curated, opinionated map for Web3 security work in 2026. It is
-designed for beginners, smart contract auditors, protocol engineers, frontend
-security teams, incident responders, and researchers working across EVM, Solana,
-Move, Cairo/Starknet, and ZK systems.
+This guide is a curated, opinionated map for Web3 security work in 2026,
+maintained by **Raiders0786 / DigiBastion**. It is designed for beginners,
+smart contract auditors, protocol engineers, frontend security teams, incident
+responders, compliance/investigations teams, and researchers working across EVM,
+Solana, Move, Cairo/Starknet, and ZK systems.
 
 ![Protocol security lifecycle](assets/diagrams/protocol-security-lifecycle.svg)
 
@@ -20,6 +21,15 @@ Move, Cairo/Starknet, and ZK systems.
 | [Protocol Security Engineer](roadmaps/protocol-security-engineer.md) | You own security from design through monitoring and incident response. |
 | [Full-Stack Web3 Security](roadmaps/full-stack-web3-security.md) | You secure DNS, web apps, wallets, APIs, package supply chain, and transaction UX. |
 | [AI-Assisted Auditor](roadmaps/ai-assisted-auditor.md) | You want practical LLM workflows without outsourcing judgment to the model. |
+
+## Core Coverage
+
+| Area | Start here |
+| --- | --- |
+| Static, dynamic, fuzzing, symbolic, formal, and AI analysis | [Analysis Methods](resources/analysis-methods.md) |
+| Frontend, API, DNS, cloud, CI/CD, and wallet UX security | [Offchain Security](resources/offchain-security.md) |
+| Blockchain intelligence, investigations, compliance, and sanctions/AML context | [Compliance & Investigations](resources/compliance-and-investigations.md) |
+| Monitoring, incident response, and emergency operations | [SOC & Monitoring](resources/soc-monitoring.md), [Incident Response](resources/incident-response.md) |
 
 ## The Operating Model
 
@@ -54,6 +64,10 @@ flowchart LR
 - [Solodit](https://solodit.cyfrin.io/) for searching public findings and contests.
 - [SEAL Frameworks](https://frameworks.securityalliance.org/) for security operations and incident readiness.
 - [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs) for exploit reproduction and incident study.
+- [Pashov AI Web3 Security](https://github.com/pashov/ai-web3-security) for tracking AI audit tools and skills.
+- [TestMachine EVMbench](https://testmachine.ai/evmbench/) for AI EVM benchmark context and caveats.
+- [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel) for Web3, DeFi, supply-chain, and operational-security alerts.
+- [VANTAGE by DigiBastion](https://vantage.digibastion.com/) for external domain, DNS, frontend, phishing, and Web3 trust-risk monitoring.
 
 ## How to Use This Site
 
@@ -61,3 +75,11 @@ Start with one roadmap, build the matching toolchain, then use the checklists on
 real or toy systems. Do not try to consume every link. Good Web3 security work is
 iterative: learn a class of bug, reproduce it, write tests for it, review real
 reports, and then apply it to a scope with a clear threat model.
+
+## Maintainer
+
+- X: [@__Raiders](https://x.com/__Raiders)
+- Telegram: [t.me/raiders0786](https://t.me/raiders0786)
+- DigiBastion: [digibastion.com](https://digibastion.com/)
+- Threat Intel alerts: [daily, weekly, or immediate subscriptions](https://www.digibastion.com/threat-intel?tab=subscribe)
+- VANTAGE: [vantage.digibastion.com](https://vantage.digibastion.com/)

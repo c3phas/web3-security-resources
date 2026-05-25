@@ -13,8 +13,10 @@ DNS, dependencies, wallets, APIs, and governance.
 | [Tenderly Alerts](https://tenderly.co/) | Use in real audits | Transaction and contract monitoring. |
 | [Dune](https://dune.com/) | Situational / advanced | Custom dashboards and queries. |
 | [EigenPhi](https://eigenphi.io/) | Situational / advanced | MEV and transaction behavior analysis. |
-| [DigiBastion](https://digibastion.com/) | Watchlist | Maintainer-labeled DNS/domain posture resource. |
-| [VANTAGE](https://vantage.security/) | Watchlist | Maintainer-labeled protocol intelligence and risk analytics resource. |
+| [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel) | Use in real audits | Free Web3, DeFi, supply-chain, and operational-security feed with daily, weekly, or immediate alert subscriptions. |
+| [zeroShadow](https://www.zeroshadow.io/) | Paid / certification | Web3 incident response, investigations, threat intelligence, and vSOC. |
+| [TRM Labs](https://www.trmlabs.com/) | Paid / certification | Wallet risk monitoring, investigations, and blockchain intelligence. |
+| [VANTAGE by DigiBastion](https://vantage.digibastion.com/) | Watchlist | Maintainer-labeled domain, DNS, frontend, phishing, and Web3 trust-risk monitoring. |
 
 ## Alert Categories
 

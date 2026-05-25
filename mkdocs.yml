@@ -67,6 +67,7 @@ nav:
   - Resources:
       - Curated Resources: resources/index.md
       - Tools: resources/tools.md
+      - Analysis Methods: resources/analysis-methods.md
       - Reports & Vulnerability Intelligence: resources/reports-and-vuln-intel.md
       - Audit Firms & Communities: resources/audit-firms-and-communities.md
       - CTFs & Practice: resources/ctfs.md
@@ -76,6 +77,8 @@ nav:
       - Incident Response: resources/incident-response.md
       - SOC & Monitoring: resources/soc-monitoring.md
       - Frontend & Supply Chain: resources/frontend-supply-chain.md
+      - Offchain Security: resources/offchain-security.md
+      - Compliance & Investigations: resources/compliance-and-investigations.md
       - OPSEC: resources/opsec.md
   - Checklists:
       - Checklists Index: checklists/index.md

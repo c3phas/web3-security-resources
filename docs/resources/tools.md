@@ -22,17 +22,47 @@
 | [Manticore](https://github.com/trailofbits/manticore) | Situational / advanced | Symbolic execution platform. |
 | [Semgrep](https://semgrep.dev/) | Use in real audits | Custom source-code rules for frontends, APIs, and Solidity patterns. |
 | [Solhint](https://github.com/protofire/solhint) | Use in real audits | Solidity linting and style/security rules. |
+| [Wake](https://ackeeblockchain.com/wake/) | Watchlist | Python-based Solidity testing and static analysis framework. |
 
-## Fuzzing and Formal Methods
+## Dynamic Analysis and Debugging
 
 | Tool | Tier | Use |
 | --- | --- | --- |
+| [Foundry Fork Testing](https://book.getfoundry.sh/forge/fork-testing) | Must learn | Reproduce mainnet state and incident paths locally. |
+| [Tenderly](https://tenderly.co/) | Use in real audits | Transaction simulation, trace debugging, and monitoring. |
+| [Dune](https://dune.com/) | Situational / advanced | Incident dashboards, protocol queries, and anomaly research. |
+| [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs) | Must learn | Runnable exploit reproductions for historical incidents. |
+
+## Fuzzing
+
+| Tool | Tier | Use |
+| --- | --- | --- |
+| [Foundry Invariant Testing](https://book.getfoundry.sh/forge/invariant-testing) | Must learn | Invariant and stateful fuzz testing in the standard EVM workflow. |
 | [Echidna](https://github.com/crytic/echidna) | Use in real audits | Property-based fuzzing. |
 | [Medusa](https://github.com/crytic/medusa) | Use in real audits | Stateful EVM fuzzing. |
+| [ItyFuzz](https://github.com/fuzzland/ityfuzz) | Situational / advanced | Snapshot-based fuzzing and exploit-generation research. |
+| [Wake](https://ackeeblockchain.com/wake/) | Watchlist | Python-driven Solidity tests, fuzzing, and analysis. |
+
+## Formal Methods and Symbolic Execution
+
+| Tool | Tier | Use |
+| --- | --- | --- |
 | [Halmos](https://github.com/a16z/halmos) | Use in real audits | Symbolic testing from Foundry tests. |
 | [hevm](https://github.com/ethereum/hevm) | Situational / advanced | EVM symbolic execution and testing. |
 | [Certora Prover](https://www.certora.com/prover) | Paid / certification | Formal verification with executable specs. |
+| [Kontrol](https://kontrol.runtimeverification.com/) | Situational / advanced | Foundry-integrated formal verification using K semantics. |
 | [K Framework](https://kframework.org/) | Situational / advanced | Semantics framework behind several verification efforts. |
+
+## AI-Assisted Security
+
+| Tool | Tier | Use |
+| --- | --- | --- |
+| [Pashov AI Web3 Security](https://github.com/pashov/ai-web3-security) | Must learn | Curated AI Web3 security tools and skills list. |
+| [Pashov Skills](https://github.com/pashov/skills) | Use in real audits | Solidity auditor and x-ray skills for AI-assisted review. |
+| [Octane Security](https://www.octane.security/) | Paid / certification | AI security engineer for mission-critical code review. |
+| [Nethermind AuditAgent](https://auditagent.nethermind.io/) | Watchlist | AI audit agent for smart contract review. |
+| [audit.new](https://audit.new/) | Watchlist | AI-assisted audit workflow entry point. |
+| [TestMachine EVMbench](https://testmachine.ai/evmbench/) | Watchlist | Benchmark context for AI EVM exploit reasoning. |
 
 ## Chain-Specific Tooling
 
@@ -56,3 +86,4 @@
 | [GoPlus](https://gopluslabs.io/) | Use in real audits | Token, address, and transaction risk APIs. |
 | [Socket](https://socket.dev/) | Use in real audits | Supply-chain risk for JavaScript packages. |
 | [OpenSSF Scorecard](https://github.com/ossf/scorecard) | Use in real audits | Open-source dependency health checks. |
+| [VANTAGE by DigiBastion](https://vantage.digibastion.com/) | Watchlist | External domain, DNS, frontend, phishing, and Web3 trust-risk monitoring. |

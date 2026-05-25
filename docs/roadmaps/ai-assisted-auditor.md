@@ -20,6 +20,18 @@ correctness.
 | PoC writing | Scaffold tests and debug traces. | The PoC proves impact under realistic preconditions. |
 | Reporting | Draft root cause and remediation language. | Accuracy, severity, evidence, and fix guidance. |
 
+## Resources and Benchmarks
+
+| Resource | Tier | Use |
+| --- | --- | --- |
+| [Pashov AI Web3 Security](https://github.com/pashov/ai-web3-security) | Must learn | Curated list of AI security tools, skills, and commercial products. |
+| [Pashov Skills](https://github.com/pashov/skills) | Use in real audits | Solidity auditor and x-ray skills for AI-assisted review. |
+| [Octane Security](https://www.octane.security/) | Paid / certification | AI-assisted security analysis for critical code. |
+| [Nethermind AuditAgent](https://auditagent.nethermind.io/) | Watchlist | AI audit agent for smart contract review. |
+| [audit.new](https://audit.new/) | Watchlist | AI-assisted audit workflow entry point. |
+| [TestMachine EVMbench](https://testmachine.ai/evmbench/) | Watchlist | Benchmark context for evaluating AI EVM exploit reasoning. |
+| [OpenAI EVMbench](https://openai.com/index/introducing-evmbench/) | Watchlist | Benchmark framing for exploit generation and reasoning claims. |
+
 ## Prompt Patterns
 
 ```text
@@ -44,6 +56,7 @@ falsifies it. Do not assume missing facts. List every required precondition.
 - They can produce plausible but invalid PoCs.
 - They can leak private code or secrets if used with unsafe tooling.
 - They may overfit to famous bug classes and miss business-logic failures.
+- Benchmarks are useful signal, but do not prove readiness for a real audit scope.
 
 ## Verification Standard
 

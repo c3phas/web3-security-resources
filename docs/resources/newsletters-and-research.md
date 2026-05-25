@@ -8,6 +8,7 @@
 | [Web3 Security Newsletter](https://web3secnews.substack.com/) | Use in real audits | Web3 security news and resources. |
 | [BlockThreat](https://newsletter.blockthreat.io/) | Use in real audits | Security incidents and research roundup. |
 | [Secureum Substack](https://secureum.substack.com/) | Must learn | Learning material and security drills. |
+| [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel) | Use in real audits | Free Web3, DeFi, supply-chain, OPSEC, and vulnerability feed with daily, weekly, or immediate email alerts. |
 | [Paradigm Research](https://www.paradigm.xyz/writing) | Situational / advanced | Protocol, MEV, and cryptography research. |
 | [Flashbots Writings](https://writings.flashbots.net/) | Situational / advanced | MEV and block-building research. |
 | [Trail of Bits Blog](https://blog.trailofbits.com/) | Must learn | Program analysis and security engineering. |
