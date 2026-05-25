@@ -5,7 +5,12 @@
   {% set social_title = page.meta.title if page and page.meta.title else config.site_name %}
   {% set social_description = page.meta.description if page and page.meta.description else config.site_description %}
   {% set social_url = page.canonical_url if page and page.canonical_url else config.site_url %}
-  {% set social_image = config.site_url ~ "assets/social/web3-security-resources-og.png" %}
+  {% set social_image_path = page.meta.social_image if page and page.meta.social_image else "assets/social/web3-security-resources-og-v2.png" %}
+  {% if social_image_path.startswith("http://") or social_image_path.startswith("https://") %}
+    {% set social_image = social_image_path %}
+  {% else %}
+    {% set social_image = config.site_url ~ social_image_path %}
+  {% endif %}
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Web3 Security Resources 2026">
   <meta property="og:title" content="{{ social_title|e }}">

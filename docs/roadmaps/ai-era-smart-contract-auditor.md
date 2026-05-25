@@ -1,3 +1,7 @@
+---
+social_image: assets/social/ai-era-smart-contract-auditor-og-v1.png
+---
+
 # AI-era Smart Contract Auditor
 
 Audience: people asking whether it is still worth becoming a smart contract
