@@ -15,10 +15,10 @@ norms. It is not a ranking or endorsement.
 | [Runtime Verification](https://runtimeverification.com/) | Situational / advanced | Formal methods and semantics. |
 | [Certora](https://www.certora.com/) | Situational / advanced | Formal verification and audit reports. |
 | [Spearbit](https://spearbit.com/) | Use in real audits | Distributed expert network and public portfolio. |
-| [Pashov Audit Group](https://www.pashov.net/) | Use in real audits | Independent audit group and public reports. |
+| [Pashov Audit Group](https://www.pashov.com/) | Use in real audits | Smart contract security audit firm with public portfolio and reports. |
 | [Pashov Audits](https://github.com/pashov/audits) | Use in real audits | Public archive of independent reports and review examples. |
 | [Pashov Skills](https://github.com/pashov/skills) | Use in real audits | AI-assisted Solidity auditor and x-ray workflows. |
-| [Trust Security](https://www.trust-security.xyz/) | Use in real audits | Audit reports and research. |
+| [TrustSec](https://trustsec.xyz/) | Use in real audits | Web3 security boutique with audits, bounties, contests, and research. |
 | [ChainSecurity](https://www.chainsecurity.com/) | Use in real audits | Protocol audits and research articles. |
 
 ## Contest and Bounty Platforms
