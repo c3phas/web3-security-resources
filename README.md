@@ -14,6 +14,7 @@ and operate Web3 systems safely.
 | --- | --- |
 | I am new to Web3 security | [Start From Zero](docs/roadmaps/start-from-zero.md) |
 | I want to become an EVM auditor | [Solidity/EVM Auditor](docs/roadmaps/solidity-evm-auditor.md) |
+| I want to become a smart contract auditor who stays relevant with AI | [AI-era Smart Contract Auditor](docs/roadmaps/ai-era-smart-contract-auditor.md) |
 | I audit Solana programs | [Rust/Solana Auditor](docs/roadmaps/solana-rust-auditor.md) |
 | I work on Move, Cairo, or ZK systems | [Move](docs/roadmaps/move-auditor.md), [Cairo/Starknet](docs/roadmaps/cairo-starknet-auditor.md), [ZK Security](docs/roadmaps/zk-security.md) |
 | I run security for a protocol | [Protocol Security Engineer](docs/roadmaps/protocol-security-engineer.md) |

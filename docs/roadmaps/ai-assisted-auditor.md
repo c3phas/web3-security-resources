@@ -9,6 +9,10 @@ Use AI to accelerate reading, hypothesis generation, test scaffolding, and repor
 drafting. Do not use AI as the source of truth for exploitability, severity, or
 correctness.
 
+For the career path question, start with the [AI-era smart contract auditor roadmap](ai-era-smart-contract-auditor.md).
+For the technical base, use the [Solidity/EVM auditor roadmap](solidity-evm-auditor.md).
+This page is the day-to-day workflow layer on top of those foundations.
+
 ## Practical Workflow
 
 | Step | AI can help with | Human must verify |

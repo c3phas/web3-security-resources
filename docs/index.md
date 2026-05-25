@@ -16,30 +16,40 @@ protocol operations.
 
 ![Protocol security lifecycle](assets/diagrams/protocol-security-lifecycle.svg)
 
-## Choose Your Track
+## Choose your track
 
 <div class="w3s-grid" markdown>
-[**Start From Zero**<span>Blockchain, Solidity, tools, and security mindset from first principles.</span>](roadmaps/start-from-zero.md){ .w3s-card }
-[**Solidity/EVM Auditor**<span>Review DeFi, upgradeable contracts, accounting, oracles, and contest scopes.</span>](roadmaps/solidity-evm-auditor.md){ .w3s-card }
-[**Rust/Solana Auditor**<span>Account model, Anchor, Token-2022, PDAs, signers, and CPI risks.</span>](roadmaps/solana-rust-auditor.md){ .w3s-card }
-[**Move Auditor**<span>Aptos, Sui, resources, capabilities, object ownership, and upgrades.</span>](roadmaps/move-auditor.md){ .w3s-card }
-[**Cairo/Starknet Auditor**<span>Cairo contracts, account abstraction, messaging, and bridge assumptions.</span>](roadmaps/cairo-starknet-auditor.md){ .w3s-card }
-[**ZK Security**<span>Circuits, constraints, trusted setup, verifier integrations, and proof systems.</span>](roadmaps/zk-security.md){ .w3s-card }
-[**Protocol Security Engineer**<span>Threat modeling, launch readiness, monitoring, incident response, and governance.</span>](roadmaps/protocol-security-engineer.md){ .w3s-card }
-[**Full-Stack Web3 Security**<span>DNS, frontends, wallets, APIs, CI/CD, supply chain, and offchain controls.</span>](roadmaps/full-stack-web3-security.md){ .w3s-card }
-[**AI-Assisted Auditor**<span>Practical LLM workflows with verification-first guardrails.</span>](roadmaps/ai-assisted-auditor.md){ .w3s-card }
+[**Start from zero**<span>Learn blockchain, Solidity, tools, and the security mindset from first principles.</span>](roadmaps/start-from-zero.md){ .w3s-card }
+[**Solidity/EVM auditor**<span>Review DeFi, upgradeable contracts, accounting, oracles, and contest scopes.</span>](roadmaps/solidity-evm-auditor.md){ .w3s-card }
+[**AI-era smart contract auditor**<span>Build the durable skills AI cannot replace: exploit reasoning, invariants, and proof.</span>](roadmaps/ai-era-smart-contract-auditor.md){ .w3s-card }
+[**Rust/Solana auditor**<span>Review account models, Anchor programs, Token-2022, PDAs, signers, and CPI flows.</span>](roadmaps/solana-rust-auditor.md){ .w3s-card }
+[**Move auditor**<span>Review resources, capabilities, object ownership, and upgrade paths across Move systems.</span>](roadmaps/move-auditor.md){ .w3s-card }
+[**Cairo/Starknet auditor**<span>Review Cairo contracts, account abstraction, messaging, and bridge assumptions.</span>](roadmaps/cairo-starknet-auditor.md){ .w3s-card }
+[**ZK security**<span>Study circuits, constraints, trusted setup, verifier integrations, and proof systems.</span>](roadmaps/zk-security.md){ .w3s-card }
+[**Protocol security engineer**<span>Own threat models, launch readiness, monitoring, incident response, and governance.</span>](roadmaps/protocol-security-engineer.md){ .w3s-card }
+[**Full-stack Web3 security**<span>Secure DNS, frontends, wallets, APIs, CI/CD, dependencies, and offchain controls.</span>](roadmaps/full-stack-web3-security.md){ .w3s-card }
+[**AI-assisted auditor**<span>Use LLMs for reading and scaffolding while verifying every security claim yourself.</span>](roadmaps/ai-assisted-auditor.md){ .w3s-card }
 </div>
 
-## Core Coverage
+## Roadmap for the AI era
+
+Short answer: yes, smart contract auditing is still worth learning. AI will make
+surface-level review cheaper, but it raises the bar for humans. The durable path
+is to reproduce real exploits, write invariants, verify AI output, study real
+reports, and build public proof that you can reason from code to impact.
+
+[Read the AI-era smart contract auditor roadmap](roadmaps/ai-era-smart-contract-auditor.md){ .w3s-button .w3s-button-primary }
+
+## Core coverage
 
 <div class="w3s-grid" markdown>
-[**Analysis Methods**<span>Static analysis, dynamic review, fuzzing, symbolic execution, formal methods, and AI.</span>](resources/analysis-methods.md){ .w3s-card }
-[**Offchain Security**<span>Frontend, API, DNS, cloud, CI/CD, package, wallet UX, and support-surface security.</span>](resources/offchain-security.md){ .w3s-card }
-[**Compliance & Investigations**<span>Blockchain intelligence, sanctions/AML context, investigations, and fund tracing.</span>](resources/compliance-and-investigations.md){ .w3s-card }
-[**SOC & Monitoring**<span>Detection, alerting, protocol operations, emergency actions, and drift monitoring.</span>](resources/soc-monitoring.md){ .w3s-card }
+[**Reproduce exploits**<span>Turn public incidents into local tests, traces, and clear root-cause notes.</span>](resources/reports-and-vuln-intel.md){ .w3s-card }
+[**Write invariants**<span>Use fuzzing and property tests to prove what must never break in protocol state.</span>](resources/analysis-methods.md){ .w3s-card }
+[**Verify AI output**<span>Treat LLM output as hypotheses until code, tests, traces, or formal reasoning confirm it.</span>](roadmaps/ai-assisted-auditor.md){ .w3s-card }
+[**Study real reports**<span>Read high-quality findings for exploit path, impact, severity, and fix reasoning.</span>](resources/reports-and-vuln-intel.md){ .w3s-card }
 </div>
 
-## Maintainer Projects
+## Maintainer projects
 
 <div class="w3s-callouts" markdown>
 <div class="w3s-callout" markdown>
@@ -60,7 +70,7 @@ evidence-backed remediation and recurring drift visibility.
 </div>
 </div>
 
-## The Operating Model
+## The operating model
 
 ```mermaid
 flowchart LR
@@ -75,7 +85,7 @@ flowchart LR
   I --> A
 ```
 
-## Curated Resource Tiers
+## Curated resource tiers
 
 | Tier | Meaning |
 | --- | --- |
@@ -85,7 +95,7 @@ flowchart LR
 | Paid / certification | Useful structured training or products with a cost or restricted access model. |
 | Watchlist | Promising or rapidly changing resources that should be verified before critical use. |
 
-## High-Signal First Links
+## High-signal first links
 
 - [OWASP Smart Contract Top 10 2026](https://owasp.org/www-project-smart-contract-top-10/) for shared risk language.
 - [OWASP Smart Contract Security Verification Standard](https://scs.owasp.org/SCSVS/) for assessment structure.
@@ -98,7 +108,7 @@ flowchart LR
 - [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel) for Web3, DeFi, supply-chain, and operational-security alerts.
 - [VANTAGE by DigiBastion](https://vantage.digibastion.com/) for external domain, DNS, frontend, phishing, and Web3 trust-risk monitoring.
 
-## How to Use This Site
+## How to use this site
 
 Start with one roadmap, build the matching toolchain, then use the checklists on
 real or toy systems. Do not try to consume every link. Good Web3 security work is

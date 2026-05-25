@@ -7,12 +7,13 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: docs/overrides
   language: en
   logo: assets/diagrams/web3-security-lifecycle.svg
   favicon: assets/diagrams/web3-security-lifecycle.svg
   features:
     - navigation.sections
-    - navigation.tabs
+    - navigation.expand
     - navigation.top
     - navigation.indexes
     - search.highlight
@@ -77,40 +78,41 @@ plugins:
 nav:
   - Home: index.md
   - Roadmaps:
-      - Start From Zero: roadmaps/start-from-zero.md
-      - Solidity/EVM Auditor: roadmaps/solidity-evm-auditor.md
-      - Rust/Solana Auditor: roadmaps/solana-rust-auditor.md
-      - Move Auditor: roadmaps/move-auditor.md
-      - Cairo/Starknet Auditor: roadmaps/cairo-starknet-auditor.md
-      - ZK Security: roadmaps/zk-security.md
-      - Protocol Security Engineer: roadmaps/protocol-security-engineer.md
-      - Full-Stack Web3 Security: roadmaps/full-stack-web3-security.md
-      - AI-Assisted Auditor: roadmaps/ai-assisted-auditor.md
+      - Start from zero: roadmaps/start-from-zero.md
+      - Solidity/EVM auditor: roadmaps/solidity-evm-auditor.md
+      - AI-era smart contract auditor: roadmaps/ai-era-smart-contract-auditor.md
+      - Rust/Solana auditor: roadmaps/solana-rust-auditor.md
+      - Move auditor: roadmaps/move-auditor.md
+      - Cairo/Starknet auditor: roadmaps/cairo-starknet-auditor.md
+      - ZK security: roadmaps/zk-security.md
+      - Protocol security engineer: roadmaps/protocol-security-engineer.md
+      - Full-stack Web3 security: roadmaps/full-stack-web3-security.md
+      - AI-assisted auditor: roadmaps/ai-assisted-auditor.md
   - Resources:
-      - Curated Resources: resources/index.md
+      - Curated resources: resources/index.md
       - Tools: resources/tools.md
-      - Analysis Methods: resources/analysis-methods.md
-      - Reports & Vulnerability Intelligence: resources/reports-and-vuln-intel.md
-      - Audit Firms & Communities: resources/audit-firms-and-communities.md
-      - CTFs & Practice: resources/ctfs.md
-      - Certifications & Courses: resources/certifications-and-courses.md
-      - Newsletters & Research: resources/newsletters-and-research.md
-      - Academic Papers: resources/academic-papers.md
-      - Incident Response: resources/incident-response.md
-      - SOC & Monitoring: resources/soc-monitoring.md
-      - Frontend & Supply Chain: resources/frontend-supply-chain.md
-      - Offchain Security: resources/offchain-security.md
-      - Compliance & Investigations: resources/compliance-and-investigations.md
+      - Analysis methods: resources/analysis-methods.md
+      - Reports and vulnerability intelligence: resources/reports-and-vuln-intel.md
+      - Audit firms and communities: resources/audit-firms-and-communities.md
+      - CTFs and practice: resources/ctfs.md
+      - Certifications and courses: resources/certifications-and-courses.md
+      - Newsletters and research: resources/newsletters-and-research.md
+      - Academic papers: resources/academic-papers.md
+      - Incident response: resources/incident-response.md
+      - SOC and monitoring: resources/soc-monitoring.md
+      - Frontend and supply chain: resources/frontend-supply-chain.md
+      - Offchain security: resources/offchain-security.md
+      - Compliance and investigations: resources/compliance-and-investigations.md
       - OPSEC: resources/opsec.md
   - Checklists:
-      - Checklists Index: checklists/index.md
-      - Pre-Audit Readiness: checklists/pre-audit.md
-      - Launch Readiness: checklists/launch.md
-      - Post-Launch Operations: checklists/post-launch.md
-      - Frontend Security: checklists/frontend.md
-      - Supply Chain Security: checklists/supply-chain.md
-      - Multisig & Governance: checklists/multisig.md
-      - Wallet Security: checklists/wallet.md
-      - SOC & Incident Response: checklists/soc-ir.md
-      - Bug Bounty Readiness: checklists/bug-bounty.md
+      - Checklists index: checklists/index.md
+      - Pre-audit readiness: checklists/pre-audit.md
+      - Launch readiness: checklists/launch.md
+      - Post-launch operations: checklists/post-launch.md
+      - Frontend security: checklists/frontend.md
+      - Supply chain security: checklists/supply-chain.md
+      - Multisig and governance: checklists/multisig.md
+      - Wallet security: checklists/wallet.md
+      - SOC and incident response: checklists/soc-ir.md
+      - Bug bounty readiness: checklists/bug-bounty.md
   - Methodology: methodology.md

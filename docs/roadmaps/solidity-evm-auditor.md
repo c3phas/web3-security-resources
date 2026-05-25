@@ -10,6 +10,11 @@ security reviewers working on EVM protocols.
 - Write minimal PoCs and invariant tests that prove impact.
 - Communicate findings with root cause, exploit path, impact, and fix guidance.
 
+If your main question is whether smart contract auditing remains a good path as
+AI tools improve, read the [AI-era smart contract auditor roadmap](ai-era-smart-contract-auditor.md)
+after this page. This roadmap builds the base; the AI-era roadmap explains how
+to stay relevant as tool-assisted review becomes normal.
+
 ## Roadmap
 
 | Stage | Focus | Proof of work |
