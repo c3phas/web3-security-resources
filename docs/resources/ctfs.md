@@ -19,8 +19,8 @@
 | [Paradigm CTF 2022](https://github.com/paradigmxyz/paradigm-ctf-2022) | Situational / advanced | Advanced blockchain CTFs. |
 | [BlockSec CTFs](https://github.com/blockthreat/blocksec-ctfs) | Use in real audits | Curated blockchain CTF collection. |
 | [minaminao ctf-blockchain](https://github.com/minaminao/ctf-blockchain) | Use in real audits | Blockchain challenge archive. |
-| [Starknet Security Challenges](https://github.com/ExtropyIO/Starknet-Security-Challenges) | Situational / advanced | Cairo/Starknet practice. |
-| [Solana Program Security](https://github.com/solana-developers/program-security) | Must learn | Solana-specific vulnerability practice. |
+| [Awesome Starknet Security](https://github.com/amanusk/awesome-starknet-security) | Situational / advanced | Curated Cairo/Starknet security practice, tools, and CTFs. |
+| [Solana Program Security](https://solana.com/developers/courses/program-security) | Must learn | Solana-specific vulnerability practice. |
 
 ## Practice Rule
 

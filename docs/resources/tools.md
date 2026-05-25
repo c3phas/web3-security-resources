@@ -81,7 +81,7 @@
 | Tool | Tier | Use |
 | --- | --- | --- |
 | [Forta](https://forta.org/) | Use in real audits | Detection bots and on-chain monitoring. |
-| [OpenZeppelin Defender](https://www.openzeppelin.com/defender) | Use in real audits | Admin operations, monitoring, and automation. |
+| [OpenZeppelin Defender](https://docs.openzeppelin.com/defender) | Use in real audits | Admin operations, monitoring, and automation. |
 | [Hypernative](https://www.hypernative.io/) | Paid / certification | Real-time protocol monitoring and exploit detection. |
 | [Blockaid](https://www.blockaid.io/) | Paid / certification | Wallet and dapp transaction protection. |
 | [GoPlus](https://gopluslabs.io/) | Use in real audits | Token, address, and transaction risk APIs. |

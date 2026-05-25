@@ -27,7 +27,7 @@ account abstraction, bridges, and L2 messaging.
 | [Starknet Docs](https://docs.starknet.io/) | Platform, accounts, contracts, and tooling reference. |
 | [Starknet Foundry](https://foundry-rs.github.io/starknet-foundry/) | Testing framework for Cairo contracts. |
 | [OpenZeppelin Cairo Contracts](https://docs.openzeppelin.com/contracts-cairo/) | Security-reviewed Cairo components and patterns. |
-| [Starknet Security Challenges](https://github.com/ExtropyIO/Starknet-Security-Challenges) | Practice material for Cairo/Starknet bug classes. |
+| [Awesome Starknet Security](https://github.com/amanusk/awesome-starknet-security) | Curated Cairo/Starknet security tools, audits, CTFs, and practice material. |
 
 ## Review Checklist
 

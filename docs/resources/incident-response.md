@@ -6,8 +6,8 @@
 | --- | --- | --- |
 | [SEAL 911](https://securityalliance.org/seal-911) | Must learn | Emergency response path for active crypto incidents. |
 | [SEAL Frameworks](https://frameworks.securityalliance.org/) | Must learn | Incident readiness and operational security frameworks. |
-| [Immunefi Disclosure Guidelines](https://immunefi.com/disclosure-guidelines/) | Use in real audits | Disclosure expectations and vulnerability handling. |
-| [OpenZeppelin Defender](https://www.openzeppelin.com/defender) | Use in real audits | Emergency admin operations and monitoring. |
+| [Immunefi Responsible Publication Policy](https://immunefi.com/responsible-publication/) | Use in real audits | Disclosure expectations and publication rules. |
+| [OpenZeppelin Defender](https://docs.openzeppelin.com/defender) | Use in real audits | Emergency admin operations and monitoring. |
 | [Forta](https://forta.org/) | Use in real audits | On-chain detection bots. |
 | [zeroShadow](https://www.zeroshadow.io/) | Paid / certification | Web3 incident response, investigations, threat intelligence, and vSOC. |
 | [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel) | Use in real audits | Free alert feed for Web3 incidents, DeFi exploits, supply-chain threats, and operational-security updates. |

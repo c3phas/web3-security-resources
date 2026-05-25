@@ -8,7 +8,7 @@ DNS, dependencies, wallets, APIs, and governance.
 | Resource | Tier | Use |
 | --- | --- | --- |
 | [Forta](https://forta.org/) | Use in real audits | On-chain detection bots and alerting. |
-| [OpenZeppelin Defender Monitor](https://www.openzeppelin.com/defender) | Use in real audits | Contract event and admin monitoring. |
+| [OpenZeppelin Defender Monitor](https://docs.openzeppelin.com/defender) | Use in real audits | Contract event and admin monitoring. |
 | [Hypernative](https://www.hypernative.io/) | Paid / certification | Real-time exploit and anomaly detection. |
 | [Tenderly Alerts](https://tenderly.co/) | Use in real audits | Transaction and contract monitoring. |
 | [Dune](https://dune.com/) | Situational / advanced | Custom dashboards and queries. |

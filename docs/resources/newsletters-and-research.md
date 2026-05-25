@@ -4,7 +4,7 @@
 
 | Resource | Tier | Focus |
 | --- | --- | --- |
-| [Week in Ethereum News](https://weekinethereumnews.com/) | Must learn | Ethereum ecosystem changes. |
+| [New Week in Ethereum News](https://wie.ercref.org/) | Must learn | Ethereum ecosystem changes. |
 | [Web3 Security Newsletter](https://web3secnews.substack.com/) | Use in real audits | Web3 security news and resources. |
 | [BlockThreat](https://newsletter.blockthreat.io/) | Use in real audits | Security incidents and research roundup. |
 | [Secureum Substack](https://secureum.substack.com/) | Must learn | Learning material and security drills. |

@@ -279,7 +279,7 @@
   why_it_matters: Primary framework documentation for Solana programs.
   status: active
 - title: Solana Program Security
-  url: https://github.com/solana-developers/program-security
+  url: https://solana.com/developers/courses/program-security
   category: ctf
   track: solana
   level: must_learn
@@ -441,7 +441,7 @@
   why_it_matters: On-chain detection bot network and alerting.
   status: active
 - title: OpenZeppelin Defender
-  url: https://www.openzeppelin.com/defender
+  url: https://docs.openzeppelin.com/defender
   category: monitoring
   track: protocol
   level: use_in_real_audits

@@ -28,7 +28,7 @@ applications, SPL integrations, and Token-2022 extensions.
 | [Anchor Book](https://www.anchor-lang.com/docs) | Primary framework documentation for modern Solana programs. |
 | [SPL Token Docs](https://spl.solana.com/token) | Token authority and account model reference. |
 | [Token-2022 Docs](https://spl.solana.com/token-2022) | Extension model and newer token risk surface. |
-| [Solana Program Security Course](https://github.com/solana-developers/program-security) | Hands-on vulnerability examples and mitigations. |
+| [Solana Program Security Course](https://solana.com/developers/courses/program-security) | Hands-on vulnerability examples and mitigations. |
 
 ## Use in Real Audits
 
