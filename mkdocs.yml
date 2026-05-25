@@ -1,0 +1,91 @@
+site_name: Web3 Security Resources 2026
+site_description: Opinionated Web3 security learning hub for auditors, engineers, and protocol security teams.
+site_url: https://raiders0786.github.io/web3-security-resources/
+repo_url: https://github.com/Raiders0786/web3-security-resources
+repo_name: Raiders0786/web3-security-resources
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  logo: assets/diagrams/web3-security-lifecycle.svg
+  favicon: assets/diagrams/web3-security-lifecycle.svg
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.suggest
+    - content.action.edit
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Roadmaps:
+      - Start From Zero: roadmaps/start-from-zero.md
+      - Solidity/EVM Auditor: roadmaps/solidity-evm-auditor.md
+      - Rust/Solana Auditor: roadmaps/solana-rust-auditor.md
+      - Move Auditor: roadmaps/move-auditor.md
+      - Cairo/Starknet Auditor: roadmaps/cairo-starknet-auditor.md
+      - ZK Security: roadmaps/zk-security.md
+      - Protocol Security Engineer: roadmaps/protocol-security-engineer.md
+      - Full-Stack Web3 Security: roadmaps/full-stack-web3-security.md
+      - AI-Assisted Auditor: roadmaps/ai-assisted-auditor.md
+  - Resources:
+      - Curated Resources: resources/index.md
+      - Tools: resources/tools.md
+      - Reports & Vulnerability Intelligence: resources/reports-and-vuln-intel.md
+      - Audit Firms & Communities: resources/audit-firms-and-communities.md
+      - CTFs & Practice: resources/ctfs.md
+      - Certifications & Courses: resources/certifications-and-courses.md
+      - Newsletters & Research: resources/newsletters-and-research.md
+      - Academic Papers: resources/academic-papers.md
+      - Incident Response: resources/incident-response.md
+      - SOC & Monitoring: resources/soc-monitoring.md
+      - Frontend & Supply Chain: resources/frontend-supply-chain.md
+      - OPSEC: resources/opsec.md
+  - Checklists:
+      - Checklists Index: checklists/index.md
+      - Pre-Audit Readiness: checklists/pre-audit.md
+      - Launch Readiness: checklists/launch.md
+      - Post-Launch Operations: checklists/post-launch.md
+      - Frontend Security: checklists/frontend.md
+      - Supply Chain Security: checklists/supply-chain.md
+      - Multisig & Governance: checklists/multisig.md
+      - Wallet Security: checklists/wallet.md
+      - SOC & Incident Response: checklists/soc-ir.md
+      - Bug Bounty Readiness: checklists/bug-bounty.md
+  - Methodology: methodology.md

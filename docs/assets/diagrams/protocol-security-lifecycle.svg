@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Protocol security lifecycle</title>
+  <desc id="desc">Design, build, test, audit, launch, monitor, and respond as a continuous loop.</desc>
+  <rect width="960" height="420" fill="#f8fafc"/>
+  <rect x="42" y="46" width="876" height="328" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="78" y="96" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Protocol Security Lifecycle</text>
+  <g font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">
+    <rect x="80" y="154" width="110" height="54" rx="10" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="116" y="186" fill="#1e3a8a">Design</text>
+    <rect x="220" y="154" width="110" height="54" rx="10" fill="#e0f2fe" stroke="#0284c7"/>
+    <text x="253" y="186" fill="#075985">Build</text>
+    <rect x="360" y="154" width="110" height="54" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="394" y="186" fill="#14532d">Test</text>
+    <rect x="500" y="154" width="110" height="54" rx="10" fill="#ede9fe" stroke="#7c3aed"/>
+    <text x="538" y="186" fill="#4c1d95">Audit</text>
+    <rect x="640" y="154" width="110" height="54" rx="10" fill="#fef3c7" stroke="#d97706"/>
+    <text x="677" y="186" fill="#78350f">Launch</text>
+    <rect x="500" y="260" width="110" height="54" rx="10" fill="#ccfbf1" stroke="#0d9488"/>
+    <text x="529" y="292" fill="#134e4a">Monitor</text>
+    <rect x="360" y="260" width="110" height="54" rx="10" fill="#ffe4e6" stroke="#e11d48"/>
+    <text x="390" y="292" fill="#881337">Respond</text>
+    <rect x="220" y="260" width="110" height="54" rx="10" fill="#f1f5f9" stroke="#64748b"/>
+    <text x="249" y="292" fill="#334155">Improve</text>
+  </g>
+  <g stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M190 181 H220"/>
+    <path d="M330 181 H360"/>
+    <path d="M470 181 H500"/>
+    <path d="M610 181 H640"/>
+    <path d="M695 208 C695 250 650 287 610 287"/>
+    <path d="M500 287 H470"/>
+    <path d="M360 287 H330"/>
+    <path d="M220 287 C120 287 90 236 116 208"/>
+  </g>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

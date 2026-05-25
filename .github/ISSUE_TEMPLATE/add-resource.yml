@@ -1,0 +1,47 @@
+name: Add resource
+description: Suggest a new resource for the catalog.
+title: "Add resource: "
+labels: ["resource"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+    validations:
+      required: true
+  - type: dropdown
+    id: free_or_paid
+    attributes:
+      label: Free or paid
+      options:
+        - free
+        - paid
+        - freemium
+        - certification
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+    validations:
+      required: true
+  - type: input
+    id: verified
+    attributes:
+      label: Last verified date
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true

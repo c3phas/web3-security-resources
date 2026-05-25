@@ -1,0 +1,496 @@
+# Curated resource metadata. Keep entries high-signal and manually verified.
+- title: OWASP Smart Contract Top 10 2026
+  url: https://owasp.org/www-project-smart-contract-top-10/
+  category: standards
+  track: evm,protocol
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Current shared risk taxonomy for smart contract vulnerabilities.
+  status: active
+- title: OWASP SCSVS
+  url: https://scs.owasp.org/SCSVS/
+  category: standards
+  track: auditor
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Verification standard for structured smart contract assessments.
+  status: active
+- title: OWASP SCSTG
+  url: https://scs.owasp.org/SCSTG/
+  category: testing
+  track: auditor
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Test guidance aligned to smart contract security controls.
+  status: active
+- title: OpenZeppelin Readiness Guide
+  url: https://www.openzeppelin.com/readiness-guide
+  category: audit_readiness
+  track: protocol
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Practical model for preparing code and teams for audits and launch.
+  status: active
+- title: SEAL Frameworks
+  url: https://frameworks.securityalliance.org/
+  category: incident_response
+  track: protocol
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Crypto-native security operations and incident readiness frameworks.
+  status: active
+- title: SEAL 911
+  url: https://securityalliance.org/seal-911
+  category: incident_response
+  track: protocol
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Emergency coordination path for severe crypto incidents.
+  status: active
+- title: Solidity Documentation
+  url: https://docs.soliditylang.org/
+  category: language
+  track: evm
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Primary Solidity language and compiler reference.
+  status: active
+- title: Foundry Book
+  url: https://book.getfoundry.sh/
+  category: tools
+  track: evm
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Standard EVM testing, fuzzing, forking, scripting, and debugging workflow.
+  status: active
+- title: Slither
+  url: https://github.com/crytic/slither
+  category: tools
+  track: evm
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Static analysis and code understanding for Solidity audits.
+  status: active
+- title: Aderyn
+  url: https://github.com/Cyfrin/aderyn
+  category: tools
+  track: evm
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Auditor-friendly Solidity static analysis and report generation.
+  status: active
+- title: Echidna
+  url: https://github.com/crytic/echidna
+  category: tools
+  track: evm
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Property-based fuzzing for smart contracts.
+  status: active
+- title: Medusa
+  url: https://github.com/crytic/medusa
+  category: tools
+  track: evm
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: High-performance stateful fuzzing for EVM systems.
+  status: active
+- title: Halmos
+  url: https://github.com/a16z/halmos
+  category: tools
+  track: evm
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Symbolic testing from Foundry test suites.
+  status: active
+- title: hevm
+  url: https://github.com/ethereum/hevm
+  category: tools
+  track: evm
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: EVM symbolic execution and debugging.
+  status: active
+- title: Certora Prover
+  url: https://www.certora.com/prover
+  category: formal_methods
+  track: evm
+  level: paid_certification
+  free_or_paid: paid
+  last_verified: 2026-05-25
+  why_it_matters: Specification-driven formal verification for high-value protocols.
+  status: active
+- title: Runtime Verification
+  url: https://runtimeverification.com/
+  category: formal_methods
+  track: multi_chain
+  level: situational_advanced
+  free_or_paid: paid
+  last_verified: 2026-05-25
+  why_it_matters: Formal semantics and verification expertise for critical systems.
+  status: active
+- title: Solodit
+  url: https://solodit.cyfrin.io/
+  category: vulnerability_intelligence
+  track: auditor
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Searchable public audit and contest findings.
+  status: active
+- title: DeFiHackLabs
+  url: https://github.com/SunWeb3Sec/DeFiHackLabs
+  category: exploit_study
+  track: auditor
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Reproducible historical exploit PoCs for learning and regression tests.
+  status: active
+- title: Code4rena Reports
+  url: https://code4rena.com/reports
+  category: reports
+  track: auditor
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Large archive of public competitive audit findings.
+  status: active
+- title: Sherlock Audits
+  url: https://audits.sherlock.xyz/
+  category: reports
+  track: auditor
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Public reports from Sherlock contests and audits.
+  status: active
+- title: Cantina
+  url: https://cantina.xyz/
+  category: audit_platform
+  track: auditor
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Competitive audits, bounties, and private security work.
+  status: active
+- title: Immunefi
+  url: https://immunefi.com/
+  category: bug_bounty
+  track: protocol
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Bug bounty and vulnerability disclosure ecosystem standard.
+  status: active
+- title: Mastering Ethereum
+  url: https://github.com/ethereumbook/ethereumbook
+  category: fundamentals
+  track: beginner
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Durable Ethereum and EVM fundamentals.
+  status: active
+- title: Cyfrin Updraft
+  url: https://updraft.cyfrin.io/
+  category: courses
+  track: beginner,evm
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Structured Solidity, Foundry, and security education.
+  status: active
+- title: Secureum
+  url: https://secureum.substack.com/
+  category: courses
+  track: evm
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Solidity security drills, quizzes, and community learning.
+  status: active
+- title: RareSkills
+  url: https://www.rareskills.io/
+  category: courses
+  track: evm,zk
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Deep explanations of Solidity, EVM, DeFi math, and ZK.
+  status: active
+- title: Ethernaut
+  url: https://ethernaut.openzeppelin.com/
+  category: ctf
+  track: beginner,evm
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Guided smart contract vulnerability challenges.
+  status: active
+- title: Damn Vulnerable DeFi
+  url: https://www.damnvulnerabledefi.xyz/
+  category: ctf
+  track: evm
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: DeFi-specific exploit practice.
+  status: active
+- title: Node Guardians
+  url: https://nodeguardians.io/
+  category: ctf
+  track: beginner,multi_chain
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Guided security quests and practice tracks.
+  status: active
+- title: Solana Documentation
+  url: https://solana.com/docs
+  category: chain_docs
+  track: solana
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Current Solana account, transaction, and platform reference.
+  status: active
+- title: Anchor Docs
+  url: https://www.anchor-lang.com/docs
+  category: framework
+  track: solana
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Primary framework documentation for Solana programs.
+  status: active
+- title: Solana Program Security
+  url: https://github.com/solana-developers/program-security
+  category: ctf
+  track: solana
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Hands-on Solana vulnerability examples.
+  status: active
+- title: Move Book
+  url: https://move-book.com/
+  category: language
+  track: move
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Practical Move language reference.
+  status: active
+- title: Aptos Move Docs
+  url: https://aptos.dev/en/build/smart-contracts
+  category: chain_docs
+  track: move
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Aptos smart contract and Move tooling reference.
+  status: active
+- title: Sui Move Concepts
+  url: https://docs.sui.io/concepts/sui-move-concepts
+  category: chain_docs
+  track: move
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Sui object model and Move concepts.
+  status: active
+- title: Cairo Book
+  url: https://book.cairo-lang.org/
+  category: language
+  track: cairo
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Primary Cairo language reference.
+  status: active
+- title: Starknet Docs
+  url: https://docs.starknet.io/
+  category: chain_docs
+  track: cairo
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Starknet platform, account, and contract documentation.
+  status: active
+- title: Starknet Foundry
+  url: https://foundry-rs.github.io/starknet-foundry/
+  category: tools
+  track: cairo
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Cairo testing framework for Starknet contracts.
+  status: active
+- title: 0xPARC Learning
+  url: https://learn.0xparc.org/
+  category: zk
+  track: zk
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: High-quality ZK learning material and research community.
+  status: active
+- title: zkSecurity
+  url: https://www.zksecurity.xyz/
+  category: zk
+  track: zk
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Practical ZK security research and audit insights.
+  status: active
+- title: Circom Docs
+  url: https://docs.circom.io/
+  category: zk
+  track: zk
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Primary Circom circuit language documentation.
+  status: active
+- title: Noir Docs
+  url: https://noir-lang.org/docs
+  category: zk
+  track: zk
+  level: watchlist
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Modern ZK DSL and tooling ecosystem.
+  status: active
+- title: OWASP WSTG
+  url: https://owasp.org/www-project-web-security-testing-guide/
+  category: frontend_security
+  track: full_stack
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Web application testing methodology.
+  status: active
+- title: OWASP ASVS
+  url: https://owasp.org/www-project-application-security-verification-standard/
+  category: frontend_security
+  track: full_stack
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Application security control standard for web and API systems.
+  status: active
+- title: OpenSSF Scorecard
+  url: https://github.com/ossf/scorecard
+  category: supply_chain
+  track: full_stack
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Open-source dependency health and maintenance checks.
+  status: active
+- title: Socket
+  url: https://socket.dev/
+  category: supply_chain
+  track: full_stack
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: JavaScript dependency and install-time behavior risk visibility.
+  status: active
+- title: Sigstore
+  url: https://www.sigstore.dev/
+  category: supply_chain
+  track: full_stack
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Signing and provenance for software artifacts.
+  status: active
+- title: SLSA
+  url: https://slsa.dev/
+  category: supply_chain
+  track: full_stack
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Framework for supply-chain integrity.
+  status: active
+- title: Forta
+  url: https://forta.org/
+  category: monitoring
+  track: protocol
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: On-chain detection bot network and alerting.
+  status: active
+- title: OpenZeppelin Defender
+  url: https://www.openzeppelin.com/defender
+  category: monitoring
+  track: protocol
+  level: use_in_real_audits
+  free_or_paid: paid
+  last_verified: 2026-05-25
+  why_it_matters: Admin operations, monitoring, and automation for live protocols.
+  status: active
+- title: Hypernative
+  url: https://www.hypernative.io/
+  category: monitoring
+  track: protocol
+  level: paid_certification
+  free_or_paid: paid
+  last_verified: 2026-05-25
+  why_it_matters: Real-time exploit and anomaly detection.
+  status: active
+- title: Blockaid
+  url: https://www.blockaid.io/
+  category: user_protection
+  track: full_stack
+  level: paid_certification
+  free_or_paid: paid
+  last_verified: 2026-05-25
+  why_it_matters: Wallet and dapp threat detection.
+  status: active
+- title: GoPlus Security
+  url: https://gopluslabs.io/
+  category: user_protection
+  track: full_stack
+  level: watchlist
+  free_or_paid: freemium
+  last_verified: 2026-05-25
+  why_it_matters: Token, address, and transaction risk APIs.
+  status: active
+- title: DigiBastion
+  url: https://digibastion.com/
+  category: opsec
+  track: full_stack
+  level: watchlist
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Maintainer-labeled resource for DNS, domain, and OPSEC posture.
+  status: maintainer_project
+- title: VANTAGE
+  url: https://vantage.security/
+  category: protocol_intelligence
+  track: protocol
+  level: watchlist
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Maintainer-labeled protocol intelligence and risk analytics resource.
+  status: maintainer_project

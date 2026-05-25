@@ -1,0 +1,28 @@
+name: Roadmap improvement
+description: Suggest a change to a learning path or checklist.
+title: "Roadmap improvement: "
+labels: ["roadmap"]
+body:
+  - type: dropdown
+    id: roadmap
+    attributes:
+      label: Area
+      options:
+        - Start From Zero
+        - Solidity/EVM Auditor
+        - Rust/Solana Auditor
+        - Move Auditor
+        - Cairo/Starknet Auditor
+        - ZK Security
+        - Protocol Security Engineer
+        - Full-Stack Web3 Security
+        - AI-Assisted Auditor
+        - Checklists
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+    validations:
+      required: true

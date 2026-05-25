@@ -1,0 +1,26 @@
+name: Broken link
+description: Report a dead, moved, or blocked resource link.
+title: "Broken link: "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: The broken URL.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Where did you find it?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Error code, redirect target, or screenshot notes.
+    validations:
+      required: false
