@@ -73,7 +73,7 @@ practical security value, maintenance, accessibility, and reputation.
 | Resource | Category | Track | Note |
 | --- | --- | --- | --- |
 | [AIxCC](https://aicyberchallenge.com/) | AI security | AI-assisted | Watch for program-analysis lessons that transfer to audits. |
-| [Wake](https://ackeeblockchain.com/wake/) | Testing | EVM | Growing Python-based Solidity testing and analysis framework. |
+| [Wake](https://github.com/Ackee-Blockchain/wake) | Testing | EVM | Growing Python-based Solidity testing and analysis framework. |
 | [GoPlus Security](https://gopluslabs.io/) | User protection | Full-stack | Transaction and token risk APIs for wallet/app defenses. |
 | [Blockaid](https://www.blockaid.io/) | User protection | Full-stack | Wallet and dapp threat detection. |
 | [Hypernative](https://www.hypernative.io/) | Monitoring | Protocol | Real-time risk and exploit detection platform. |

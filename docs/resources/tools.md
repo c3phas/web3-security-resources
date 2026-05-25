@@ -22,7 +22,7 @@
 | [Manticore](https://github.com/trailofbits/manticore) | Situational / advanced | Symbolic execution platform. |
 | [Semgrep](https://semgrep.dev/) | Use in real audits | Custom source-code rules for frontends, APIs, and Solidity patterns. |
 | [Solhint](https://github.com/protofire/solhint) | Use in real audits | Solidity linting and style/security rules. |
-| [Wake](https://ackeeblockchain.com/wake/) | Watchlist | Python-based Solidity testing and static analysis framework. |
+| [Wake](https://github.com/Ackee-Blockchain/wake) | Watchlist | Python-based Solidity testing and static analysis framework. |
 
 ## Dynamic Analysis and Debugging
 
@@ -41,7 +41,7 @@
 | [Echidna](https://github.com/crytic/echidna) | Use in real audits | Property-based fuzzing. |
 | [Medusa](https://github.com/crytic/medusa) | Use in real audits | Stateful EVM fuzzing. |
 | [ItyFuzz](https://github.com/fuzzland/ityfuzz) | Situational / advanced | Snapshot-based fuzzing and exploit-generation research. |
-| [Wake](https://ackeeblockchain.com/wake/) | Watchlist | Python-driven Solidity tests, fuzzing, and analysis. |
+| [Wake](https://github.com/Ackee-Blockchain/wake) | Watchlist | Python-driven Solidity tests, fuzzing, and analysis. |
 
 ## Formal Methods and Symbolic Execution
 

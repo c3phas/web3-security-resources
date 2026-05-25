@@ -17,7 +17,7 @@ confirms exploitability.
 | [Semgrep](https://semgrep.dev/) | Use in real audits | Custom rules for Solidity, TypeScript, APIs, CI, and offchain code. |
 | [Solhint](https://github.com/protofire/solhint) | Use in real audits | Solidity linting and lightweight policy checks. |
 | [Mythril](https://github.com/ConsenSysDiligence/mythril) | Situational / advanced | Bytecode-level symbolic analysis and bug hunting. |
-| [Wake](https://ackeeblockchain.com/wake/) | Watchlist | Python-based Solidity testing and analysis framework. |
+| [Wake](https://github.com/Ackee-Blockchain/wake) | Watchlist | Python-based Solidity testing and analysis framework. |
 
 ## Dynamic Analysis and Debugging
 
@@ -44,7 +44,7 @@ transitions.
 | [Echidna](https://github.com/crytic/echidna) | Use in real audits | Property-based Solidity fuzzing. |
 | [Medusa](https://github.com/crytic/medusa) | Use in real audits | High-performance stateful EVM fuzzing. |
 | [ItyFuzz](https://github.com/fuzzland/ityfuzz) | Situational / advanced | Snapshot-based smart contract fuzzing and exploit generation research. |
-| [Wake](https://ackeeblockchain.com/wake/) | Watchlist | Python-driven tests, fuzzing, and Solidity analysis. |
+| [Wake](https://github.com/Ackee-Blockchain/wake) | Watchlist | Python-driven tests, fuzzing, and Solidity analysis. |
 
 ## Symbolic Execution and Formal Verification
 
