@@ -1,4 +1,6 @@
 ---
+title: AI-era smart contract auditor
+description: "A practical roadmap for becoming a smart contract auditor who stays relevant with AI: reproduce exploits, write invariants, verify AI output, and study real reports."
 social_image: assets/social/ai-era-smart-contract-auditor-og-v1.png
 ---
 

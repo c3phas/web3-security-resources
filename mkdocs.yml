@@ -1,5 +1,5 @@
 site_name: Web3 Security Resources 2026
-site_description: Opinionated Web3 security learning hub for auditors, engineers, and protocol security teams.
+site_description: "Curated Web3 security learning hub for smart contract auditors and protocol teams: roadmaps, audit tools, public reports, fuzzing, formal verification, AI-assisted workflows, offchain security, incident response, and launch checklists."
 site_url: https://raiders0786.github.io/web3-security-resources/
 repo_url: https://github.com/Raiders0786/web3-security-resources
 repo_name: Raiders0786/web3-security-resources

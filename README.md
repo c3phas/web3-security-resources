@@ -1,7 +1,8 @@
 # Web3 Security Resources 2026
 
-Curated Web3 security hub by **Raiders0786 / DigiBastion**: roadmaps,
-audit tools, AI workflows, fuzzing, formal verification, offchain security,
+Curated Web3 security learning hub by **Raiders0786 / DigiBastion** for smart
+contract auditors and protocol teams: roadmaps, audit tools, public reports,
+fuzzing, formal verification, AI-assisted workflows, offchain security,
 incident response, compliance, and launch checklists.
 
 This repository is no longer a giant bookmark dump. It is a GitHub Pages

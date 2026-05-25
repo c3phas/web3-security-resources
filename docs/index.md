@@ -1,10 +1,10 @@
 <section class="w3s-hero" markdown>
 # Web3 Security Resources 2026
 
-Curated Web3 security hub by **[Raiders0786](https://x.com/__Raiders) / [DigiBastion](https://www.digibastion.com)** for auditors,
-engineers, founders, incident responders, and researchers working across EVM,
-Solana, Move, Cairo/Starknet, ZK, frontends, infrastructure, investigations, and
-protocol operations.
+Curated Web3 security learning hub by **[Raiders0786](https://x.com/__Raiders) / [DigiBastion](https://www.digibastion.com)** for smart
+contract auditors, protocol teams, engineers, founders, incident responders, and
+researchers working across EVM, Solana, Move, Cairo/Starknet, ZK, frontends,
+infrastructure, investigations, and protocol operations.
 
 <div class="w3s-actions" markdown>
 [Start with roadmaps](#choose-your-track){ .w3s-button .w3s-button-primary }

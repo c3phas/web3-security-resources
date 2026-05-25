@@ -4,6 +4,17 @@ from pathlib import Path
 
 
 SITE_URL = "https://raiders0786.github.io/web3-security-resources/"
+SITE_TITLE = "Web3 Security Resources 2026"
+SITE_DESCRIPTION = (
+    "Curated Web3 security learning hub for smart contract auditors and protocol teams: "
+    "roadmaps, audit tools, public reports, fuzzing, formal verification, "
+    "AI-assisted workflows, offchain security, incident response, and launch checklists."
+)
+AI_TITLE = "AI-era smart contract auditor"
+AI_DESCRIPTION = (
+    "A practical roadmap for becoming a smart contract auditor who stays relevant with AI: "
+    "reproduce exploits, write invariants, verify AI output, and study real reports."
+)
 DEFAULT_IMAGE = SITE_URL + "assets/social/web3-security-resources-og-v2.png"
 AI_IMAGE = SITE_URL + "assets/social/ai-era-smart-contract-auditor-og-v1.png"
 
@@ -33,8 +44,18 @@ def require(condition, message):
         raise SystemExit(message)
 
 
-def check_page(path, expected_image, forbidden_image=None):
+def check_page(path, expected_title, expected_description, expected_image, forbidden_image=None):
     meta = read_meta(path)
+    require(meta.get("og:title") == expected_title, f"{path}: og:title is {meta.get('og:title')!r}")
+    require(meta.get("twitter:title") == expected_title, f"{path}: twitter:title is {meta.get('twitter:title')!r}")
+    require(
+        meta.get("og:description") == expected_description,
+        f"{path}: og:description is {meta.get('og:description')!r}",
+    )
+    require(
+        meta.get("twitter:description") == expected_description,
+        f"{path}: twitter:description is {meta.get('twitter:description')!r}",
+    )
     for key in ("og:image", "og:image:secure_url", "twitter:image"):
         require(meta.get(key) == expected_image, f"{path}: {key} is {meta.get(key)!r}")
     require(meta.get("og:image:type") == "image/png", f"{path}: missing png image type")
@@ -54,8 +75,13 @@ def check_asset(path):
 
 
 def main():
-    check_page("site/index.html", DEFAULT_IMAGE, forbidden_image=AI_IMAGE)
-    check_page("site/roadmaps/ai-era-smart-contract-auditor/index.html", AI_IMAGE)
+    check_page("site/index.html", SITE_TITLE, SITE_DESCRIPTION, DEFAULT_IMAGE, forbidden_image=AI_IMAGE)
+    check_page(
+        "site/roadmaps/ai-era-smart-contract-auditor/index.html",
+        AI_TITLE,
+        AI_DESCRIPTION,
+        AI_IMAGE,
+    )
     check_asset("docs/assets/social/web3-security-resources-og-v2.png")
     check_asset("docs/assets/social/ai-era-smart-contract-auditor-og-v1.png")
 
