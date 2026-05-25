@@ -1,3 +1,8 @@
+---
+title: Protocol Security Engineer
+description: Protocol Security Engineer page in the Web3 Security Resources 2026 hub.
+---
+
 # Protocol Security Engineer
 
 Audience: security leads, protocol engineers, governance contributors, and

@@ -1,3 +1,8 @@
+---
+title: SOC and Monitoring
+description: SOC and Monitoring page in the Web3 Security Resources 2026 hub.
+---
+
 # SOC and Monitoring
 
 Protocol monitoring should cover contracts, privileged actions, frontend drift,

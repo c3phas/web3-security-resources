@@ -1,3 +1,8 @@
+---
+title: Solidity/EVM Auditor
+description: Solidity/EVM Auditor page in the Web3 Security Resources 2026 hub.
+---
+
 # Solidity/EVM Auditor
 
 Audience: aspiring auditors, contest participants, Solidity engineers, and

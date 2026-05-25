@@ -1,3 +1,8 @@
+---
+title: Disclaimer
+description: Educational-use disclaimer for Web3 Security Resources, including no endorsement, no legal advice, and verification guidance.
+---
+
 # Disclaimer
 
 Web3 Security Resources 2026 is an educational resource hub. It is meant to help

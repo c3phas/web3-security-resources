@@ -1,3 +1,8 @@
+---
+title: Compliance and Investigations
+description: Compliance and Investigations page in the Web3 Security Resources 2026 hub.
+---
+
 # Compliance and Investigations
 
 Security teams increasingly need to understand investigations, sanctions/AML

@@ -29,6 +29,20 @@
   <meta name="twitter:title" content="{{ social_title|e }}">
   <meta name="twitter:description" content="{{ social_description|e }}">
   <meta name="twitter:image" content="{{ social_image|e }}">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "{% if page and (page.url.startswith('personas/') or page.url.startswith('topics/') or page.url.startswith('checklists/') or page.url.startswith('resources/')) %}CollectionPage{% else %}WebSite{% endif %}",
+      "name": "{{ social_title|e }}",
+      "description": "{{ social_description|e }}",
+      "url": "{{ social_url|e }}",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Raiders0786 / DigiBastion",
+        "url": "https://www.digibastion.com/"
+      }
+    }
+  </script>
 {% endblock %}
 
 {% block footer %}

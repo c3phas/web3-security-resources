@@ -6,9 +6,8 @@ from pathlib import Path
 SITE_URL = "https://raiders0786.github.io/web3-security-resources/"
 SITE_TITLE = "Web3 Security Resources 2026"
 SITE_DESCRIPTION = (
-    "Curated Web3 security learning hub for smart contract auditors and protocol teams: "
-    "roadmaps, audit tools, public reports, fuzzing, formal verification, "
-    "AI-assisted workflows, offchain security, incident response, and launch checklists."
+    "Curated Web3 security learning hub for smart contract auditors, protocol teams, "
+    "founders, engineers, incident responders, and researchers."
 )
 AI_TITLE = "AI-era smart contract auditor"
 AI_DESCRIPTION = (

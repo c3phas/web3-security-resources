@@ -1,3 +1,8 @@
+---
+title: Certifications and Courses
+description: Certifications and Courses page in the Web3 Security Resources 2026 hub.
+---
+
 # Certifications and Courses
 
 Courses can accelerate learning, but public reports, reproducible PoCs, and

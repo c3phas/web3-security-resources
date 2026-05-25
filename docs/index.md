@@ -1,3 +1,8 @@
+---
+title: Web3 Security Resources 2026
+description: Curated Web3 security learning hub for smart contract auditors, protocol teams, founders, engineers, incident responders, and researchers.
+---
+
 <section class="w3s-hero" markdown>
 # Web3 Security Resources 2026
 
@@ -7,6 +12,7 @@ researchers working across EVM, Solana, Move, Cairo/Starknet, ZK, frontends,
 infrastructure, investigations, and protocol operations.
 
 <div class="w3s-actions" markdown>
+[Choose your path](personas/index.md){ .w3s-button .w3s-button-primary }
 [Start with roadmaps](#choose-your-track){ .w3s-button .w3s-button-primary }
 [Browse tools](resources/analysis-methods.md){ .w3s-button }
 [Threat intel alerts](https://www.digibastion.com/threat-intel?tab=subscribe){ .w3s-button }
@@ -15,6 +21,17 @@ infrastructure, investigations, and protocol operations.
 </section>
 
 ![Protocol security lifecycle](assets/diagrams/protocol-security-lifecycle.svg)
+
+## I am...
+
+<div class="w3s-grid" markdown>
+[**An aspiring auditor**<span>Follow a 30/60/90-day path through exploit reproduction, invariants, reports, and testing.</span>](personas/aspiring-auditors.md){ .w3s-card }
+[**A protocol founder**<span>Prepare launch gates, audit evidence, multisig operations, monitoring, and incident readiness.</span>](personas/protocol-founders.md){ .w3s-card }
+[**A security lead**<span>Run control ownership, monitoring, bounty intake, tabletop drills, and executive evidence.</span>](personas/protocol-security-leads.md){ .w3s-card }
+[**A frontend or wallet engineer**<span>Protect signing paths, browser-shipped code, wallet UX, account abstraction, and supply chains.</span>](personas/frontend-wallet-engineers.md){ .w3s-card }
+[**An incident responder**<span>Prepare containment, evidence preservation, transaction simulation, signer safety, and public comms.</span>](personas/incident-responders.md){ .w3s-card }
+[**In compliance or investigations**<span>Connect reports, wallet activity, domain evidence, escalation paths, and careful case records.</span>](personas/compliance-investigations.md){ .w3s-card }
+</div>
 
 ## Choose your track
 

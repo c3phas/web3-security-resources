@@ -1,3 +1,8 @@
+---
+title: Newsletters and Research
+description: Newsletters and Research page in the Web3 Security Resources 2026 hub.
+---
+
 # Newsletters and Research
 
 ## Newsletters and Blogs

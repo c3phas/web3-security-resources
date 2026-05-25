@@ -1,3 +1,8 @@
+---
+title: Methodology
+description: Editorial methodology for curating Web3 security resources, labeling maintainer projects, and avoiding endorsement claims.
+---
+
 # Methodology
 
 This project ranks resources by practical usefulness, not by sponsorship,

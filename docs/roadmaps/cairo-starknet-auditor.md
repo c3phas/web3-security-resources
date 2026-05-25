@@ -1,3 +1,8 @@
+---
+title: Cairo/Starknet Auditor
+description: Cairo/Starknet Auditor page in the Web3 Security Resources 2026 hub.
+---
+
 # Cairo/Starknet Auditor
 
 Audience: auditors and engineers reviewing Cairo contracts, Starknet protocols,

@@ -1,3 +1,8 @@
+---
+title: OPSEC
+description: OPSEC page in the Web3 Security Resources 2026 hub.
+---
+
 # OPSEC
 
 Web3 OPSEC covers people, wallets, keys, devices, access, domains, and

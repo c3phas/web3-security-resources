@@ -1,3 +1,8 @@
+---
+title: AI-Assisted Auditor
+description: AI-Assisted Auditor page in the Web3 Security Resources 2026 hub.
+---
+
 # AI-Assisted Auditor
 
 Audience: auditors and engineers who use LLMs as assistants while keeping human

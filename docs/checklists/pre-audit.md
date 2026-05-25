@@ -1,3 +1,8 @@
+---
+title: Pre-Audit Readiness
+description: Pre-Audit Readiness page in the Web3 Security Resources 2026 hub.
+---
+
 # Pre-Audit Readiness
 
 ## Scope
@@ -32,3 +37,12 @@
 - Diagrams and protocol docs match the code.
 - Contact path for questions is defined.
 - Expected report format and severity model are agreed.
+
+
+## Evidence gates
+
+| Gate | Evidence | Owner | Pass condition | Common failure |
+| --- | --- | --- | --- | --- |
+| Scope is complete | Repository commit, deployment plan, threat model, diagrams, and out-of-scope list. | Security lead | Auditors can identify every component that moves funds, changes state, or influences users. | Scope omits frontend, keeper, oracle, bridge, upgrade, or admin tooling. |
+| Tests prove invariants | Unit, integration, fuzz, fork, and scenario tests linked to protocol invariants. | Engineering lead | Critical invariants have automated tests and limitations are documented. | Coverage exists but does not encode solvency, accounting, authorization, or liquidation invariants. |
+| Known risks are accepted explicitly | Risk register with severity, mitigation, owner, expiry, and launch decision. | Security lead | Open risks are visible before audit starts. | Risks are spread across chat, issues, and audit comments. |

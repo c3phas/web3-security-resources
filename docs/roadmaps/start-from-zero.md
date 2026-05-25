@@ -1,3 +1,8 @@
+---
+title: Start From Zero
+description: Start From Zero page in the Web3 Security Resources 2026 hub.
+---
+
 # Start From Zero
 
 Audience: beginners, Web2 engineers entering Web3, students, and security

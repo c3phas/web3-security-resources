@@ -1,3 +1,8 @@
+---
+title: Incident Response
+description: Incident Response page in the Web3 Security Resources 2026 hub.
+---
+
 # Incident Response
 
 ## Must Learn

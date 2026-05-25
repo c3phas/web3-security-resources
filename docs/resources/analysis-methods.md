@@ -1,3 +1,8 @@
+---
+title: Analysis Methods
+description: Analysis Methods page in the Web3 Security Resources 2026 hub.
+---
+
 # Analysis Methods
 
 Good security work layers methods. No scanner, fuzzer, formal spec, AI model, or

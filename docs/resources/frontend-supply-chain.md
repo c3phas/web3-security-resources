@@ -1,3 +1,8 @@
+---
+title: Frontend and Supply Chain
+description: Frontend and Supply Chain page in the Web3 Security Resources 2026 hub.
+---
+
 # Frontend and Supply Chain
 
 Web3 users sign what the frontend asks them to sign. A secure contract can still

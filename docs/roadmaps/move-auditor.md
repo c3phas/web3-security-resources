@@ -1,3 +1,8 @@
+---
+title: Move Auditor
+description: Move Auditor page in the Web3 Security Resources 2026 hub.
+---
+
 # Move Auditor
 
 Audience: auditors reviewing Aptos, Sui, and Move-based protocols.

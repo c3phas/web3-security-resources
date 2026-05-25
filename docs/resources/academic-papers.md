@@ -1,3 +1,8 @@
+---
+title: Academic Papers
+description: Academic Papers page in the Web3 Security Resources 2026 hub.
+---
+
 # Academic Papers
 
 Academic work is most useful when translated into concrete review questions,

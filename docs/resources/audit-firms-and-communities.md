@@ -1,3 +1,8 @@
+---
+title: Audit Firms and Communities
+description: Audit Firms and Communities page in the Web3 Security Resources 2026 hub.
+---
+
 # Audit Firms and Communities
 
 This list is for learning from public reports, research, contests, and community

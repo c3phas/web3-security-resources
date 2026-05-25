@@ -77,6 +77,14 @@ plugins:
 
 nav:
   - Home: index.md
+  - Choose Your Path:
+      - Persona index: personas/index.md
+      - For aspiring auditors: personas/aspiring-auditors.md
+      - For protocol founders: personas/protocol-founders.md
+      - For protocol security leads: personas/protocol-security-leads.md
+      - For frontend and wallet engineers: personas/frontend-wallet-engineers.md
+      - For incident responders: personas/incident-responders.md
+      - For compliance and investigations: personas/compliance-investigations.md
   - Roadmaps:
       - Start from zero: roadmaps/start-from-zero.md
       - Solidity/EVM auditor: roadmaps/solidity-evm-auditor.md
@@ -115,5 +123,19 @@ nav:
       - Wallet security: checklists/wallet.md
       - SOC and incident response: checklists/soc-ir.md
       - Bug bounty readiness: checklists/bug-bounty.md
+      - Account abstraction readiness: checklists/account-abstraction.md
+      - Bridge and cross-chain readiness: checklists/bridge-cross-chain.md
+      - Oracle, liquidation, and MEV readiness: checklists/oracle-mev.md
+      - Incident war room: checklists/incident-war-room.md
+      - Solana program readiness: checklists/solana-program.md
+  - Topic Guides:
+      - Topic guide index: topics/index.md
+      - Account abstraction and smart wallets: topics/account-abstraction-smart-wallets.md
+      - Bridge and cross-chain security: topics/bridge-cross-chain-security.md
+      - Oracle, liquidation, and MEV risk: topics/oracle-liquidation-mev-risk.md
+      - DeFi primitive review: topics/defi-primitive-review.md
+      - Solana testing and audit tooling: topics/solana-testing-audit-tooling.md
+      - ZK and zkVM security: topics/zk-zkvm-security.md
+      - Security program maturity: topics/security-program-maturity.md
   - Methodology: methodology.md
   - Disclaimer: disclaimer.md

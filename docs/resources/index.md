@@ -1,3 +1,8 @@
+---
+title: Curated Resources
+description: Curated Resources page in the Web3 Security Resources 2026 hub.
+---
+
 # Curated Resources
 
 Use this section as a working index. The tiers are editorial judgments based on
@@ -40,6 +45,23 @@ practical security value, maintenance, accessibility, and reputation.
 
 | Resource | Category | Track | Note |
 | --- | --- | --- | --- |
+| [ERC-4337 Resources](https://docs.erc4337.io/resources/) | Account abstraction | EVM, wallet | Primary hub for smart accounts, bundlers, paymasters, and UserOperations. |
+| [ERC-4337 Simulation Requirements](https://docs.erc4337.io/bundlers/simulation-requirements/) | Account abstraction | EVM, wallet | Bundler simulation expectations that should inform reviews. |
+| [OpenZeppelin EIP-4337 Audit](https://www.openzeppelin.com/news/eth-foundation-account-abstraction-audit) | Audit report | EVM, wallet | Public report with paymaster, bundler, and EntryPoint failure modes. |
+| [Solana Program Security Course](https://solana.com/developers/courses/program-security) | Chain-specific security | Solana | Solana signer, owner, PDA, CPI, and lifecycle vulnerability classes. |
+| [Mollusk](https://solana.com/docs/programs/testing/mollusk) | Testing | Solana | Fast instruction-level tests for Solana programs. |
+| [Anchor LiteSVM](https://www.anchor-lang.com/docs/testing/litesvm) | Testing | Solana | Lightweight local Solana tests for CI-friendly security coverage. |
+| [Surfpool](https://docs.surfpool.run/) | Testing | Solana | Local Solana network and simulation environment. |
+| [BlockSec Phalcon Simulator](https://docs.blocksec.com/phalcon/phalcon-explorer/simulator) | Simulation | EVM, IR | Transaction simulation for exploit reproduction and privileged action review. |
+| [Tenderly Docs](https://docs.tenderly.co/) | Simulation | EVM | Forks, traces, simulations, monitoring, and incident reproduction. |
+| [Safe Transaction Service](https://docs.safe.global/core-api/transaction-service-overview) | Multisig operations | Protocol | Monitoring and timeline evidence for Safe-controlled operations. |
+| [Chainlink Feed Selection](https://docs.chain.link/data-feeds/selecting-data-feeds) | Oracle security | DeFi | Feed freshness, deviation, fallback, and selection guidance. |
+| [Wormhole Security](https://wormhole.com/security/) | Bridge security | Multi-chain | Security-program reference for bridge and messaging assumptions. |
+| [CosmWasm Docs](https://cosmwasm.com/build) | Chain-specific security | Cosmos | Wasm smart contract development and testing reference. |
+| [Sui Security](https://www.sui.io/security) | Move security | Sui | Public reports and security resources for Sui and Move. |
+| [Aptos Move Docs](https://aptos.dev/en/build/smart-contracts) | Move security | Aptos | Primary Aptos Move smart contract reference. |
+| [RISC Zero Docs](https://dev.risczero.com/) | zkVM | ZK | zkVM proof, guest, receipt, and verifier reference. |
+| [SP1 Repository](https://github.com/succinctlabs/sp1) | zkVM | ZK | Source and release reference for SP1 integrations. |
 | [Certora Prover](https://www.certora.com/prover) | Formal methods | EVM | Specification and formal verification for high-value systems. |
 | [Runtime Verification](https://runtimeverification.com/) | Formal methods | Multi-chain | Semantics and verification services. |
 | [0xPARC](https://learn.0xparc.org/) | ZK | ZK | Strong ZK education and research community. |

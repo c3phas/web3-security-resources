@@ -1,3 +1,8 @@
+---
+title: Rust/Solana Auditor
+description: Rust/Solana Auditor page in the Web3 Security Resources 2026 hub.
+---
+
 # Rust/Solana Auditor
 
 Audience: auditors and Rust engineers reviewing Solana programs, Anchor

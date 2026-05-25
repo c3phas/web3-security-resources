@@ -1,3 +1,8 @@
+---
+title: Offchain Security
+description: Offchain Security page in the Web3 Security Resources 2026 hub.
+---
+
 # Offchain Security
 
 Smart contract security is only one part of Web3 risk. Users reach protocols

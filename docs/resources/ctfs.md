@@ -1,3 +1,8 @@
+---
+title: CTFs and Practice
+description: CTFs and Practice page in the Web3 Security Resources 2026 hub.
+---
+
 # CTFs and Practice
 
 ## Beginner to Intermediate

@@ -8,6 +8,333 @@
   last_verified: 2026-05-25
   why_it_matters: Current shared risk taxonomy for smart contract vulnerabilities.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm, protocol]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
+- title: ERC-4337 Resources
+  url: https://docs.erc4337.io/resources/
+  category: account_abstraction
+  track: evm,wallet
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Curated account abstraction references for UserOperations, paymasters, bundlers, and smart accounts.
+  status: active
+  audience: [auditors, wallet_engineers, protocol_teams]
+  stage: [learning, design, audit_readiness]
+  ecosystem: [ethereum, evm]
+  evidence_type: primary_documentation
+  notes: Maintainer documentation; use with current EntryPoint and bundler implementation details.
+- title: ERC-4337 Bundler Simulation Requirements
+  url: https://docs.erc4337.io/bundlers/simulation-requirements/
+  category: account_abstraction
+  track: evm,wallet
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Defines simulation expectations that affect bundler acceptance, mempool safety, and UserOperation validity.
+  status: active
+  audience: [auditors, wallet_engineers, security_leads]
+  stage: [implementation, audit_readiness, monitoring]
+  ecosystem: [ethereum, evm]
+  evidence_type: spec_guidance
+  notes: Review alongside paymaster, bundler, and client behavior; not a substitute for implementation testing.
+- title: OpenZeppelin EIP-4337 Audit
+  url: https://www.openzeppelin.com/news/eth-foundation-account-abstraction-audit
+  category: audit_report
+  track: evm,wallet
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Public audit with useful failure modes for EntryPoint, StakeManager, paymasters, bundlers, and replay assumptions.
+  status: active
+  audience: [auditors, wallet_engineers, security_leads]
+  stage: [training, design, audit_readiness]
+  ecosystem: [ethereum, evm]
+  evidence_type: public_audit_report
+  notes: Independent report; verify against current ERC-4337 versions and deployed EntryPoint assumptions.
+- title: Solana Program Security Course
+  url: https://solana.com/developers/courses/program-security
+  category: solana_security
+  track: solana
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Covers signer checks, owner checks, account validation, reinitialization, duplicate mutables, CPI, and PDA risks.
+  status: active
+  audience: [auditors, engineers]
+  stage: [learning, implementation, audit_readiness]
+  ecosystem: [solana]
+  evidence_type: training_course
+  notes: Some course material may be marked older; still useful for Solana-specific vulnerability classes.
+- title: Solana Mollusk
+  url: https://solana.com/docs/programs/testing/mollusk
+  category: solana_testing
+  track: solana
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Fast instruction-level Solana testing for security-critical account and CPI behavior.
+  status: active
+  audience: [auditors, engineers]
+  stage: [implementation, audit_readiness, ci]
+  ecosystem: [solana]
+  evidence_type: tool_documentation
+  notes: Maintainer documentation; pair with validator-like tests when network behavior matters.
+- title: Anchor LiteSVM
+  url: https://www.anchor-lang.com/docs/testing/litesvm
+  category: solana_testing
+  track: solana
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Lightweight local Solana testing path that can keep security checks fast enough for CI.
+  status: active
+  audience: [auditors, engineers]
+  stage: [implementation, audit_readiness, ci]
+  ecosystem: [solana]
+  evidence_type: tool_documentation
+  notes: Maintainer documentation; verify current Anchor and LiteSVM compatibility.
+- title: Surfpool
+  url: https://docs.surfpool.run/
+  category: solana_testing
+  track: solana
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Local Solana development and simulation environment for realistic transaction and program behavior.
+  status: active
+  audience: [engineers, auditors]
+  stage: [implementation, testing, incident_replay]
+  ecosystem: [solana]
+  evidence_type: tool_documentation
+  notes: Project documentation; validate fit before relying on it for audit evidence.
+- title: BlockSec Phalcon Simulator
+  url: https://docs.blocksec.com/phalcon/phalcon-explorer/simulator
+  category: transaction_simulation
+  track: evm,incident_response
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Transaction simulation helps reproduce exploits and review privileged actions before signing.
+  status: active
+  audience: [incident_responders, auditors, security_leads]
+  stage: [audit_readiness, incident_response, monitoring]
+  ecosystem: [ethereum, evm]
+  evidence_type: tool_documentation
+  notes: Vendor documentation; simulation is evidence for a scenario, not proof that a system is safe.
+- title: Tenderly Documentation
+  url: https://docs.tenderly.co/
+  category: transaction_simulation
+  track: evm
+  level: use_in_real_audits
+  free_or_paid: freemium
+  last_verified: 2026-05-25
+  why_it_matters: Forks, traces, simulations, and monitoring help reproduce behavior and validate transaction paths.
+  status: active
+  audience: [engineers, auditors, incident_responders]
+  stage: [implementation, audit_readiness, incident_response]
+  ecosystem: [ethereum, evm]
+  evidence_type: tool_documentation
+  notes: Vendor documentation; verify plan limits and data exposure before incident use.
+- title: Safe Help Center
+  url: https://help.safe.global/
+  category: multisig_operations
+  track: protocol
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Operational reference for Safe configuration, signer workflows, and high-value multisig use.
+  status: active
+  audience: [protocol_founders, security_leads, incident_responders]
+  stage: [launch, operations, incident_response]
+  ecosystem: [ethereum, evm]
+  evidence_type: operator_documentation
+  notes: Maintainer documentation; teams still need their own signer policy and transaction review evidence.
+- title: Safe Transaction Service
+  url: https://docs.safe.global/core-api/transaction-service-overview
+  category: multisig_operations
+  track: protocol
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Useful for building Safe transaction monitoring, queue review, and incident timelines.
+  status: active
+  audience: [engineers, security_leads, incident_responders]
+  stage: [operations, monitoring, incident_response]
+  ecosystem: [ethereum, evm]
+  evidence_type: api_documentation
+  notes: Maintainer API documentation; verify chain support and availability for production workflows.
+- title: Chainlink Data Feed Selection
+  url: https://docs.chain.link/data-feeds/selecting-data-feeds
+  category: oracle_security
+  track: defi
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Feed selection, freshness, deviation, fallback, decimals, and failure modes are recurring DeFi risks.
+  status: active
+  audience: [auditors, security_leads, protocol_founders]
+  stage: [design, implementation, audit_readiness]
+  ecosystem: [ethereum, evm, multi_chain]
+  evidence_type: primary_documentation
+  notes: Maintainer documentation; review actual feed config and protocol-side handling.
+- title: Wormhole Security
+  url: https://wormhole.com/security/
+  category: bridge_security
+  track: bridge,multi_chain
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Bridge integrations need explicit trust-boundary, guardian, relayer, finality, and pause-control review.
+  status: active
+  audience: [protocol_founders, security_leads, auditors]
+  stage: [design, audit_readiness, operations]
+  ecosystem: [multi_chain]
+  evidence_type: security_program
+  notes: Maintainer project page; do not treat project security claims as independent assurance.
+- title: CosmWasm Documentation
+  url: https://cosmwasm.com/build
+  category: cosmwasm
+  track: cosmos
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Primary reference for Wasm smart contracts, Rust testing patterns, and Cosmos integration assumptions.
+  status: active
+  audience: [auditors, engineers]
+  stage: [learning, implementation, audit_readiness]
+  ecosystem: [cosmos, cosmwasm]
+  evidence_type: primary_documentation
+  notes: Maintainer documentation; review chain-specific wasm module settings separately.
+- title: Sui Security Reports and Resources
+  url: https://www.sui.io/security
+  category: move_security
+  track: move
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Public reports and security resources for Sui, Move VM, DeepBook, and ecosystem design assumptions.
+  status: active
+  audience: [auditors, engineers, security_leads]
+  stage: [learning, due_diligence, audit_readiness]
+  ecosystem: [sui, move]
+  evidence_type: security_reports
+  notes: Maintainer project page; use reports as inputs, not endorsements.
+- title: Sui Security Best Practices
+  url: https://blog.sui.io/security-best-practices/
+  category: move_security
+  track: move
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Useful onboarding for Move-specific object ownership, capability handling, and transaction design.
+  status: active
+  audience: [engineers, auditors]
+  stage: [implementation, audit_readiness]
+  ecosystem: [sui, move]
+  evidence_type: best_practice_guide
+  notes: Maintainer blog; confirm details against current Sui docs.
+- title: Aptos Move Smart Contract Docs
+  url: https://aptos.dev/en/build/smart-contracts
+  category: move_security
+  track: move
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Primary Aptos Move reference for modules, resources, testing, transactions, and framework assumptions.
+  status: active
+  audience: [engineers, auditors]
+  stage: [learning, implementation, audit_readiness]
+  ecosystem: [aptos, move]
+  evidence_type: primary_documentation
+  notes: Maintainer documentation; review Aptos framework version and deployment model.
+- title: RISC Zero Developer Documentation
+  url: https://dev.risczero.com/
+  category: zkvm
+  track: zk
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Reference for zkVM proving model, guest code, receipts, verifier assumptions, and operational constraints.
+  status: active
+  audience: [engineers, auditors, security_leads]
+  stage: [design, implementation, audit_readiness]
+  ecosystem: [zkvm, rust]
+  evidence_type: primary_documentation
+  notes: Maintainer documentation; verify security assumptions against current release and audits.
+- title: RISC Zero Security Overview
+  url: https://github.com/risc0/risc0/security
+  category: zkvm
+  track: zk
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Security policy and advisory path for RISC Zero-based systems.
+  status: active
+  audience: [auditors, security_leads]
+  stage: [due_diligence, audit_readiness]
+  ecosystem: [zkvm, rust]
+  evidence_type: security_policy
+  notes: Maintainer security page; combine with release notes, audits, and implementation review.
+- title: SP1 zkVM Repository
+  url: https://github.com/succinctlabs/sp1
+  category: zkvm
+  track: zk
+  level: situational_advanced
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Source reference for SP1 architecture, examples, releases, issues, and proving/verifier integration assumptions.
+  status: active
+  audience: [engineers, auditors, security_leads]
+  stage: [design, implementation, audit_readiness]
+  ecosystem: [zkvm, rust]
+  evidence_type: source_repository
+  notes: Maintainer repository; review pinned release and verifier assumptions for each integration.
+- title: Chainabuse
+  url: https://www.chainabuse.com/
+  category: investigations
+  track: compliance,incident_response
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Public scam-reporting portal useful for abuse, phishing, wallet-drainer, and evidence packet workflows.
+  status: active
+  audience: [incident_responders, compliance_teams, security_leads]
+  stage: [monitoring, incident_response, investigations]
+  ecosystem: [multi_chain]
+  evidence_type: reporting_database
+  notes: Public reporting source; verify claims independently before attribution or enforcement.
+- title: MetaMask eth-phishing-detect
+  url: https://github.com/MetaMask/eth-phishing-detect
+  category: wallet_drainer_defense
+  track: wallet,incident_response
+  level: use_in_real_audits
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Reference for phishing-list behavior and reporting paths used by wallet-facing defenses.
+  status: active
+  audience: [wallet_engineers, incident_responders, security_leads]
+  stage: [monitoring, incident_response]
+  ecosystem: [multi_chain]
+  evidence_type: source_repository
+  notes: Maintainer repository; verify current list behavior and false-positive handling before user-facing action.
+- title: DefiLlama Hacks
+  url: https://defillama.com/hacks
+  category: vulnerability_intelligence
+  track: protocol,incident_response
+  level: must_learn
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Incident database for exploit-class study, loss context, and risk workshops.
+  status: active
+  audience: [incident_responders, security_leads, protocol_founders]
+  stage: [learning, risk_review, incident_response]
+  ecosystem: [multi_chain]
+  evidence_type: incident_database
+  notes: Community data source; verify incident details against primary reports before citing.
 - title: OWASP SCSVS
   url: https://scs.owasp.org/SCSVS/
   category: standards
@@ -17,6 +344,11 @@
   last_verified: 2026-05-25
   why_it_matters: Verification standard for structured smart contract assessments.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [auditor]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: OWASP SCSTG
   url: https://scs.owasp.org/SCSTG/
   category: testing
@@ -26,6 +358,11 @@
   last_verified: 2026-05-25
   why_it_matters: Test guidance aligned to smart contract security controls.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [auditor]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: OpenZeppelin Readiness Guide
   url: https://www.openzeppelin.com/readiness-guide
   category: audit_readiness
@@ -35,6 +372,11 @@
   last_verified: 2026-05-25
   why_it_matters: Practical model for preparing code and teams for audits and launch.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [protocol]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: SEAL Frameworks
   url: https://frameworks.securityalliance.org/
   category: incident_response
@@ -44,6 +386,11 @@
   last_verified: 2026-05-25
   why_it_matters: Crypto-native security operations and incident readiness frameworks.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [protocol]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: SEAL 911
   url: https://securityalliance.org/seal-911
   category: incident_response
@@ -53,6 +400,11 @@
   last_verified: 2026-05-25
   why_it_matters: Emergency coordination path for severe crypto incidents.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [protocol]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Solidity Documentation
   url: https://docs.soliditylang.org/
   category: language
@@ -62,6 +414,11 @@
   last_verified: 2026-05-25
   why_it_matters: Primary Solidity language and compiler reference.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Foundry Book
   url: https://book.getfoundry.sh/
   category: tools
@@ -71,6 +428,11 @@
   last_verified: 2026-05-25
   why_it_matters: Standard EVM testing, fuzzing, forking, scripting, and debugging workflow.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Slither
   url: https://github.com/crytic/slither
   category: tools
@@ -80,6 +442,11 @@
   last_verified: 2026-05-25
   why_it_matters: Static analysis and code understanding for Solidity audits.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Aderyn
   url: https://github.com/Cyfrin/aderyn
   category: tools
@@ -89,6 +456,11 @@
   last_verified: 2026-05-25
   why_it_matters: Auditor-friendly Solidity static analysis and report generation.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Echidna
   url: https://github.com/crytic/echidna
   category: tools
@@ -98,6 +470,11 @@
   last_verified: 2026-05-25
   why_it_matters: Property-based fuzzing for smart contracts.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Medusa
   url: https://github.com/crytic/medusa
   category: tools
@@ -107,6 +484,11 @@
   last_verified: 2026-05-25
   why_it_matters: High-performance stateful fuzzing for EVM systems.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Halmos
   url: https://github.com/a16z/halmos
   category: tools
@@ -116,6 +498,11 @@
   last_verified: 2026-05-25
   why_it_matters: Symbolic testing from Foundry test suites.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: hevm
   url: https://github.com/ethereum/hevm
   category: tools
@@ -125,6 +512,11 @@
   last_verified: 2026-05-25
   why_it_matters: EVM symbolic execution and debugging.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Certora Prover
   url: https://www.certora.com/prover
   category: formal_methods
@@ -134,6 +526,11 @@
   last_verified: 2026-05-25
   why_it_matters: Specification-driven formal verification for high-value protocols.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Runtime Verification
   url: https://runtimeverification.com/
   category: formal_methods
@@ -143,6 +540,11 @@
   last_verified: 2026-05-25
   why_it_matters: Formal semantics and verification expertise for critical systems.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [multi_chain]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Solodit
   url: https://solodit.cyfrin.io/
   category: vulnerability_intelligence
@@ -152,6 +554,11 @@
   last_verified: 2026-05-25
   why_it_matters: Searchable public audit and contest findings.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [auditor]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: DeFiHackLabs
   url: https://github.com/SunWeb3Sec/DeFiHackLabs
   category: exploit_study
@@ -161,6 +568,11 @@
   last_verified: 2026-05-25
   why_it_matters: Reproducible historical exploit PoCs for learning and regression tests.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [auditor]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Code4rena Reports
   url: https://code4rena.com/reports
   category: reports
@@ -170,6 +582,11 @@
   last_verified: 2026-05-25
   why_it_matters: Large archive of public competitive audit findings.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [auditor]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Sherlock Audits
   url: https://audits.sherlock.xyz/
   category: reports
@@ -179,6 +596,11 @@
   last_verified: 2026-05-25
   why_it_matters: Public reports from Sherlock contests and audits.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [auditor]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Cantina
   url: https://cantina.xyz/
   category: audit_platform
@@ -188,6 +610,11 @@
   last_verified: 2026-05-25
   why_it_matters: Competitive audits, bounties, and private security work.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [auditor]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Immunefi
   url: https://immunefi.com/
   category: bug_bounty
@@ -197,6 +624,11 @@
   last_verified: 2026-05-25
   why_it_matters: Bug bounty and vulnerability disclosure ecosystem standard.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [protocol]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Mastering Ethereum
   url: https://github.com/ethereumbook/ethereumbook
   category: fundamentals
@@ -206,6 +638,11 @@
   last_verified: 2026-05-25
   why_it_matters: Durable Ethereum and EVM fundamentals.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [beginner]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Cyfrin Updraft
   url: https://updraft.cyfrin.io/
   category: courses
@@ -215,6 +652,11 @@
   last_verified: 2026-05-25
   why_it_matters: Structured Solidity, Foundry, and security education.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [beginner, evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Secureum
   url: https://secureum.substack.com/
   category: courses
@@ -224,6 +666,11 @@
   last_verified: 2026-05-25
   why_it_matters: Solidity security drills, quizzes, and community learning.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: RareSkills
   url: https://www.rareskills.io/
   category: courses
@@ -233,6 +680,11 @@
   last_verified: 2026-05-25
   why_it_matters: Deep explanations of Solidity, EVM, DeFi math, and ZK.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm, zk]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Ethernaut
   url: https://ethernaut.openzeppelin.com/
   category: ctf
@@ -242,6 +694,11 @@
   last_verified: 2026-05-25
   why_it_matters: Guided smart contract vulnerability challenges.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [beginner, evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Damn Vulnerable DeFi
   url: https://www.damnvulnerabledefi.xyz/
   category: ctf
@@ -251,6 +708,11 @@
   last_verified: 2026-05-25
   why_it_matters: DeFi-specific exploit practice.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Node Guardians
   url: https://nodeguardians.io/
   category: ctf
@@ -260,6 +722,11 @@
   last_verified: 2026-05-25
   why_it_matters: Guided security quests and practice tracks.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [beginner, multi_chain]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Solana Documentation
   url: https://solana.com/docs
   category: chain_docs
@@ -269,6 +736,11 @@
   last_verified: 2026-05-25
   why_it_matters: Current Solana account, transaction, and platform reference.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [solana]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Anchor Docs
   url: https://www.anchor-lang.com/docs
   category: framework
@@ -278,15 +750,11 @@
   last_verified: 2026-05-25
   why_it_matters: Primary framework documentation for Solana programs.
   status: active
-- title: Solana Program Security
-  url: https://solana.com/developers/courses/program-security
-  category: ctf
-  track: solana
-  level: must_learn
-  free_or_paid: free
-  last_verified: 2026-05-25
-  why_it_matters: Hands-on Solana vulnerability examples.
-  status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [solana]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Move Book
   url: https://move-book.com/
   category: language
@@ -296,15 +764,11 @@
   last_verified: 2026-05-25
   why_it_matters: Practical Move language reference.
   status: active
-- title: Aptos Move Docs
-  url: https://aptos.dev/en/build/smart-contracts
-  category: chain_docs
-  track: move
-  level: must_learn
-  free_or_paid: free
-  last_verified: 2026-05-25
-  why_it_matters: Aptos smart contract and Move tooling reference.
-  status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [move]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Sui Move Concepts
   url: https://docs.sui.io/concepts/sui-move-concepts
   category: chain_docs
@@ -314,6 +778,11 @@
   last_verified: 2026-05-25
   why_it_matters: Sui object model and Move concepts.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [move]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Cairo Book
   url: https://book.cairo-lang.org/
   category: language
@@ -323,6 +792,11 @@
   last_verified: 2026-05-25
   why_it_matters: Primary Cairo language reference.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [cairo]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Starknet Docs
   url: https://docs.starknet.io/
   category: chain_docs
@@ -332,6 +806,11 @@
   last_verified: 2026-05-25
   why_it_matters: Starknet platform, account, and contract documentation.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [cairo]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Starknet Foundry
   url: https://foundry-rs.github.io/starknet-foundry/
   category: tools
@@ -341,6 +820,11 @@
   last_verified: 2026-05-25
   why_it_matters: Cairo testing framework for Starknet contracts.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [cairo]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: 0xPARC Learning
   url: https://learn.0xparc.org/
   category: zk
@@ -350,6 +834,11 @@
   last_verified: 2026-05-25
   why_it_matters: High-quality ZK learning material and research community.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [zk]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: zkSecurity
   url: https://www.zksecurity.xyz/
   category: zk
@@ -359,6 +848,11 @@
   last_verified: 2026-05-25
   why_it_matters: Practical ZK security research and audit insights.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [zk]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Circom Docs
   url: https://docs.circom.io/
   category: zk
@@ -368,6 +862,11 @@
   last_verified: 2026-05-25
   why_it_matters: Primary Circom circuit language documentation.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [zk]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Noir Docs
   url: https://noir-lang.org/docs
   category: zk
@@ -377,6 +876,11 @@
   last_verified: 2026-05-25
   why_it_matters: Modern ZK DSL and tooling ecosystem.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [zk]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: OWASP WSTG
   url: https://owasp.org/www-project-web-security-testing-guide/
   category: frontend_security
@@ -386,6 +890,11 @@
   last_verified: 2026-05-25
   why_it_matters: Web application testing methodology.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [full_stack]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: OWASP ASVS
   url: https://owasp.org/www-project-application-security-verification-standard/
   category: frontend_security
@@ -395,6 +904,11 @@
   last_verified: 2026-05-25
   why_it_matters: Application security control standard for web and API systems.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [full_stack]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: OpenSSF Scorecard
   url: https://github.com/ossf/scorecard
   category: supply_chain
@@ -404,6 +918,11 @@
   last_verified: 2026-05-25
   why_it_matters: Open-source dependency health and maintenance checks.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [full_stack]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Socket
   url: https://socket.dev/
   category: supply_chain
@@ -413,6 +932,11 @@
   last_verified: 2026-05-25
   why_it_matters: JavaScript dependency and install-time behavior risk visibility.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [full_stack]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Sigstore
   url: https://www.sigstore.dev/
   category: supply_chain
@@ -422,6 +946,11 @@
   last_verified: 2026-05-25
   why_it_matters: Signing and provenance for software artifacts.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [full_stack]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: SLSA
   url: https://slsa.dev/
   category: supply_chain
@@ -431,6 +960,11 @@
   last_verified: 2026-05-25
   why_it_matters: Framework for supply-chain integrity.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [full_stack]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Forta
   url: https://forta.org/
   category: monitoring
@@ -440,6 +974,11 @@
   last_verified: 2026-05-25
   why_it_matters: On-chain detection bot network and alerting.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [protocol]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: OpenZeppelin Defender
   url: https://docs.openzeppelin.com/defender
   category: monitoring
@@ -449,6 +988,11 @@
   last_verified: 2026-05-25
   why_it_matters: Admin operations, monitoring, and automation for live protocols.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [protocol]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Hypernative
   url: https://www.hypernative.io/
   category: monitoring
@@ -458,6 +1002,11 @@
   last_verified: 2026-05-25
   why_it_matters: Real-time exploit and anomaly detection.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [protocol]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Blockaid
   url: https://www.blockaid.io/
   category: user_protection
@@ -467,6 +1016,11 @@
   last_verified: 2026-05-25
   why_it_matters: Wallet and dapp threat detection.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [full_stack]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: GoPlus Security
   url: https://gopluslabs.io/
   category: user_protection
@@ -476,6 +1030,11 @@
   last_verified: 2026-05-25
   why_it_matters: Token, address, and transaction risk APIs.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [full_stack]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: DigiBastion
   url: https://digibastion.com/
   category: opsec
@@ -485,6 +1044,11 @@
   last_verified: 2026-05-25
   why_it_matters: Maintainer-labeled resource for DNS, domain, and OPSEC posture.
   status: maintainer_project
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [full_stack]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: VANTAGE
   url: https://vantage.digibastion.com/
   category: protocol_intelligence
@@ -494,6 +1058,11 @@
   last_verified: 2026-05-25
   why_it_matters: Maintainer-labeled external domain, DNS, frontend, phishing, and Web3 trust-risk monitoring.
   status: maintainer_project
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [protocol, full_stack]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: DigiBastion Threat Intel
   url: https://www.digibastion.com/threat-intel
   category: threat_intelligence
@@ -503,6 +1072,11 @@
   last_verified: 2026-05-25
   why_it_matters: Maintainer-labeled Web3, DeFi, supply-chain, and operational-security feed with alert subscriptions.
   status: maintainer_project
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [protocol, full_stack, incident_response]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: DigiBastion Threat Intel Subscribe
   url: https://www.digibastion.com/threat-intel?tab=subscribe
   category: threat_intelligence
@@ -512,6 +1086,11 @@
   last_verified: 2026-05-25
   why_it_matters: Free daily, weekly, or immediate email alerts for founders, developers, and security engineers.
   status: maintainer_project
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [protocol, full_stack, incident_response]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Pashov Audits
   url: https://github.com/pashov/audits
   category: reports
@@ -521,6 +1100,11 @@
   last_verified: 2026-05-25
   why_it_matters: Large public archive of independent smart contract audit reports.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [auditor]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Pashov Skills
   url: https://github.com/pashov/skills
   category: ai_security
@@ -530,6 +1114,11 @@
   last_verified: 2026-05-25
   why_it_matters: Solidity auditor and x-ray skills for AI-assisted security review.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm, ai_assisted]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Pashov AI Web3 Security
   url: https://github.com/pashov/ai-web3-security
   category: ai_security
@@ -539,6 +1128,11 @@
   last_verified: 2026-05-25
   why_it_matters: Curated list of AI Web3 security tools, skills, and commercial products.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [ai_assisted]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Octane Security
   url: https://www.octane.security/
   category: ai_security
@@ -548,6 +1142,11 @@
   last_verified: 2026-05-25
   why_it_matters: Commercial AI-assisted security tool to evaluate with normal vendor diligence.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm, ai_assisted]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: TestMachine EVMbench
   url: https://testmachine.ai/evmbench/
   category: ai_benchmark
@@ -557,6 +1156,11 @@
   last_verified: 2026-05-25
   why_it_matters: Benchmark context for evaluating AI EVM exploit reasoning claims, not an audit-tool endorsement.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm, ai_assisted]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: OpenAI EVMbench
   url: https://openai.com/index/introducing-evmbench/
   category: ai_benchmark
@@ -566,6 +1170,11 @@
   last_verified: 2026-05-25
   why_it_matters: Benchmark framing for EVM exploit reasoning and generation.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm, ai_assisted]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Paradigm EVMbench
   url: https://www.paradigm.xyz/2026/02/evmbench
   category: ai_benchmark
@@ -575,6 +1184,11 @@
   last_verified: 2026-05-25
   why_it_matters: Research framing for EVM exploit-generation benchmarks.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm, ai_assisted]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Re-Evaluating EVMBench
   url: https://arxiv.org/abs/2603.10795
   category: ai_benchmark
@@ -584,6 +1198,11 @@
   last_verified: 2026-05-25
   why_it_matters: Cautionary benchmark paper for interpreting EVMbench-style results and AI audit claims.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm, ai_assisted]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Nethermind AuditAgent
   url: https://auditagent.nethermind.io/
   category: ai_security
@@ -593,6 +1212,11 @@
   last_verified: 2026-05-25
   why_it_matters: Nethermind-backed AI audit agent to track carefully while manually verifying outputs.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [ai_assisted]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Kontrol
   url: https://kontrol.runtimeverification.com/
   category: formal_methods
@@ -602,6 +1226,11 @@
   last_verified: 2026-05-25
   why_it_matters: Foundry-integrated formal verification using K semantics.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: ItyFuzz
   url: https://github.com/fuzzland/ityfuzz
   category: fuzzing
@@ -611,6 +1240,11 @@
   last_verified: 2026-05-25
   why_it_matters: Snapshot-based smart contract fuzzing and exploit-generation research.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [evm]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Burp Suite
   url: https://portswigger.net/burp
   category: offchain_security
@@ -620,6 +1254,11 @@
   last_verified: 2026-05-25
   why_it_matters: Baseline web and API testing proxy for offchain review.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [full_stack]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: OWASP ZAP
   url: https://www.zaproxy.org/
   category: offchain_security
@@ -629,6 +1268,11 @@
   last_verified: 2026-05-25
   why_it_matters: Open-source web application proxy and scanner.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [full_stack]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: OWASP API Security Top 10
   url: https://owasp.org/www-project-api-security/
   category: offchain_security
@@ -638,6 +1282,11 @@
   last_verified: 2026-05-25
   why_it_matters: API authorization, abuse, and data-exposure risk taxonomy.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [full_stack]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: TRM Labs
   url: https://www.trmlabs.com/
   category: compliance
@@ -647,6 +1296,11 @@
   last_verified: 2026-05-25
   why_it_matters: Blockchain intelligence, wallet screening, investigations, and risk monitoring.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [investigations, protocol]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Chainalysis
   url: https://www.chainalysis.com/
   category: compliance
@@ -656,6 +1310,11 @@
   last_verified: 2026-05-25
   why_it_matters: Blockchain analytics, investigations, compliance, and ecosystem intelligence.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [investigations, protocol]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: Elliptic
   url: https://www.elliptic.co/
   category: compliance
@@ -665,6 +1324,11 @@
   last_verified: 2026-05-25
   why_it_matters: Crypto risk intelligence, wallet screening, and investigation workflows.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [investigations, protocol]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.
 - title: zeroShadow
   url: https://www.zeroshadow.io/
   category: incident_response
@@ -674,3 +1338,8 @@
   last_verified: 2026-05-25
   why_it_matters: Web3 incident response, investigations, threat intelligence, and vSOC.
   status: active
+  audience: [auditors, protocol_teams]
+  stage: [learning, audit_readiness]
+  ecosystem: [investigations, incident_response]
+  evidence_type: curated_reference
+  notes: Existing curated entry; verify source context, maintenance, and fit before operational reliance.

@@ -1,3 +1,8 @@
+---
+title: ZK Security
+description: ZK Security page in the Web3 Security Resources 2026 hub.
+---
+
 # ZK Security
 
 Audience: circuit engineers, auditors, protocol security engineers, and

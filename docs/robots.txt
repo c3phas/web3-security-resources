@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raiders0786.github.io/web3-security-resources/sitemap.xml

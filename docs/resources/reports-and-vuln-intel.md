@@ -1,3 +1,8 @@
+---
+title: Reports and Vulnerability Intelligence
+description: Reports and Vulnerability Intelligence page in the Web3 Security Resources 2026 hub.
+---
+
 # Reports and Vulnerability Intelligence
 
 ## Finding Search and Public Reports

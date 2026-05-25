@@ -1,3 +1,8 @@
+---
+title: Tools
+description: Tools page in the Web3 Security Resources 2026 hub.
+---
+
 # Tools
 
 ## EVM Development, Testing, and Debugging

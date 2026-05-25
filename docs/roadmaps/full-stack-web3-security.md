@@ -1,3 +1,8 @@
+---
+title: Full-Stack Web3 Security
+description: Full-Stack Web3 Security page in the Web3 Security Resources 2026 hub.
+---
+
 # Full-Stack Web3 Security
 
 Audience: Web3 app security teams, frontend engineers, protocol security leads,
