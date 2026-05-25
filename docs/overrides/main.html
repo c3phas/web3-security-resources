@@ -30,3 +30,17 @@
   <meta name="twitter:description" content="{{ social_description|e }}">
   <meta name="twitter:image" content="{{ social_image|e }}">
 {% endblock %}
+
+{% block footer %}
+  {{ super() }}
+  <section class="w3s-site-disclaimer md-typeset" aria-label="Site disclaimer">
+    <div class="w3s-site-disclaimer__inner md-grid">
+      <strong>Educational resource only.</strong>
+      Links and listings are not endorsements by Raiders0786, DigiBastion,
+      maintainers, contributors, or this project. Verify third-party resources
+      before relying on them. Not legal, financial, investment, compliance, or
+      professional security advice.
+      <a href="{{ 'disclaimer/' | url }}">Read the full disclaimer.</a>
+    </div>
+  </section>
+{% endblock %}

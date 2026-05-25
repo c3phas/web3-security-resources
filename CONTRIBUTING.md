@@ -20,6 +20,11 @@ If you add a resource to a Markdown page, also add or update the matching entry
 in `docs/data/resources.yml` when it is intended to be part of the maintained
 catalog.
 
+Adding a resource does not imply endorsement by Raiders0786, DigiBastion,
+maintainers, contributors, or this project. Contributions should describe why a
+resource is useful without promotional, affiliate, ranking, or guarantee
+language.
+
 ## Quality Bar
 
 Good additions usually have at least one of these properties:

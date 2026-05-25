@@ -116,3 +116,4 @@ nav:
       - SOC and incident response: checklists/soc-ir.md
       - Bug bounty readiness: checklists/bug-bounty.md
   - Methodology: methodology.md
+  - Disclaimer: disclaimer.md

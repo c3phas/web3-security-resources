@@ -54,6 +54,18 @@ and operate Web3 systems safely.
 - **Paid / certification**: Useful but not required; cost or access may limit use.
 - **Watchlist**: Promising, niche, or changing quickly; verify before relying on it.
 
+## Disclaimer
+
+This is an educational resource hub. Links, listings, categories, tiers,
+summaries, and mentions are not endorsements by Raiders0786, DigiBastion,
+maintainers, contributors, or this project.
+
+Third-party resources can change without notice. Verify tools, firms, projects,
+courses, reports, datasets, dependencies, and services before relying on them,
+especially before running anything against sensitive code or infrastructure.
+Nothing here is legal, financial, investment, compliance, or professional
+security advice. See the full [site disclaimer](docs/disclaimer.md).
+
 ## Maintainer
 
 Maintained by **Raiders0786 / DigiBastion**.
