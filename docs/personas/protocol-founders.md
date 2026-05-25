@@ -38,7 +38,7 @@ substitute for accountable launch gates.
 4. [Safe Help Center](https://help.safe.global/)
 5. [Safe Transaction Service](https://docs.safe.global/core-api/transaction-service-overview)
 6. [Chainlink feed selection docs](https://docs.chain.link/data-feeds/selecting-data-feeds)
-7. [Wormhole security](https://wormhole.com/security/)
+7. [Wormhole security](https://docs.wormhole.com/protocol/security/)
 8. [Tenderly docs](https://docs.tenderly.co/)
 9. [DefiLlama hacks](https://defillama.com/hacks)
 10. [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel)

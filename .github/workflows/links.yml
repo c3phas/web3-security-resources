@@ -23,6 +23,5 @@ jobs:
             --verbose
             --no-progress
             --accept 200,204,206,301,302,403,429
-            --exclude-file .lycheeignore
             README.md docs/**/*.md
           fail: true

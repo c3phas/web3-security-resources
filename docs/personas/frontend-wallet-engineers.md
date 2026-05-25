@@ -32,7 +32,7 @@ and submitted. Browser-shipped code is part of the trust boundary.
 ## First 10 resources
 
 1. [ERC-4337 resources](https://docs.erc4337.io/resources/)
-2. [ERC-4337 simulation requirements](https://docs.erc4337.io/bundlers/simulation-requirements/)
+2. [ERC-4337 simulation requirements](https://docs.erc4337.io/bundlers/simulation-requirements.html)
 3. [OpenZeppelin EIP-4337 audit](https://www.openzeppelin.com/news/eth-foundation-account-abstraction-audit)
 4. [Tenderly docs](https://docs.tenderly.co/)
 5. [BlockSec Phalcon simulator](https://docs.blocksec.com/phalcon/phalcon-explorer/simulator)

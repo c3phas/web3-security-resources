@@ -14,6 +14,6 @@ description: Evidence-based readiness gates for bridges, cross-chain messages, r
 
 ## References
 
-- [Wormhole security](https://wormhole.com/security/)
+- [Wormhole security](https://docs.wormhole.com/protocol/security/)
 - [SEAL Frameworks](https://frameworks.securityalliance.org/)
 - [DefiLlama hacks](https://defillama.com/hacks)

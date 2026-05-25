@@ -46,7 +46,7 @@ practical security value, maintenance, accessibility, and reputation.
 | Resource | Category | Track | Note |
 | --- | --- | --- | --- |
 | [ERC-4337 Resources](https://docs.erc4337.io/resources/) | Account abstraction | EVM, wallet | Primary hub for smart accounts, bundlers, paymasters, and UserOperations. |
-| [ERC-4337 Simulation Requirements](https://docs.erc4337.io/bundlers/simulation-requirements/) | Account abstraction | EVM, wallet | Bundler simulation expectations that should inform reviews. |
+| [ERC-4337 Simulation Requirements](https://docs.erc4337.io/bundlers/simulation-requirements.html) | Account abstraction | EVM, wallet | Bundler simulation expectations that should inform reviews. |
 | [OpenZeppelin EIP-4337 Audit](https://www.openzeppelin.com/news/eth-foundation-account-abstraction-audit) | Audit report | EVM, wallet | Public report with paymaster, bundler, and EntryPoint failure modes. |
 | [Solana Program Security Course](https://solana.com/developers/courses/program-security) | Chain-specific security | Solana | Solana signer, owner, PDA, CPI, and lifecycle vulnerability classes. |
 | [Mollusk](https://solana.com/docs/programs/testing/mollusk) | Testing | Solana | Fast instruction-level tests for Solana programs. |
@@ -56,7 +56,7 @@ practical security value, maintenance, accessibility, and reputation.
 | [Tenderly Docs](https://docs.tenderly.co/) | Simulation | EVM | Forks, traces, simulations, monitoring, and incident reproduction. |
 | [Safe Transaction Service](https://docs.safe.global/core-api/transaction-service-overview) | Multisig operations | Protocol | Monitoring and timeline evidence for Safe-controlled operations. |
 | [Chainlink Feed Selection](https://docs.chain.link/data-feeds/selecting-data-feeds) | Oracle security | DeFi | Feed freshness, deviation, fallback, and selection guidance. |
-| [Wormhole Security](https://wormhole.com/security/) | Bridge security | Multi-chain | Security-program reference for bridge and messaging assumptions. |
+| [Wormhole Security](https://docs.wormhole.com/protocol/security/) | Bridge security | Multi-chain | Security-program reference for bridge and messaging assumptions. |
 | [CosmWasm Docs](https://cosmwasm.com/build) | Chain-specific security | Cosmos | Wasm smart contract development and testing reference. |
 | [Sui Security](https://www.sui.io/security) | Move security | Sui | Public reports and security resources for Sui and Move. |
 | [Aptos Move Docs](https://aptos.dev/en/build/smart-contracts) | Move security | Aptos | Primary Aptos Move smart contract reference. |

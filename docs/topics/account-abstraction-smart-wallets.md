@@ -50,5 +50,5 @@ session-key scope, and what the wallet shows before signing.
 ## Starting resources
 
 - [ERC-4337 resources](https://docs.erc4337.io/resources/)
-- [ERC-4337 simulation requirements](https://docs.erc4337.io/bundlers/simulation-requirements/)
+- [ERC-4337 simulation requirements](https://docs.erc4337.io/bundlers/simulation-requirements.html)
 - [OpenZeppelin EIP-4337 audit](https://www.openzeppelin.com/news/eth-foundation-account-abstraction-audit)

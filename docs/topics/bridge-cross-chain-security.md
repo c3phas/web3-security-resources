@@ -48,6 +48,6 @@ procedures, and privileged role ownership.
 
 ## Starting resources
 
-- [Wormhole security](https://wormhole.com/security/)
+- [Wormhole security](https://docs.wormhole.com/protocol/security/)
 - [DefiLlama hacks](https://defillama.com/hacks)
 - [SEAL Frameworks](https://frameworks.securityalliance.org/)

@@ -39,7 +39,7 @@ safety, user communications, and post-incident control fixes.
 6. [MetaMask eth-phishing-detect](https://github.com/MetaMask/eth-phishing-detect)
 7. [DefiLlama hacks](https://defillama.com/hacks)
 8. [Safe Transaction Service](https://docs.safe.global/core-api/transaction-service-overview)
-9. [Wormhole security](https://wormhole.com/security/)
+9. [Wormhole security](https://docs.wormhole.com/protocol/security/)
 10. [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel)
 
 ## Common failure

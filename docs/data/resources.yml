@@ -28,7 +28,7 @@
   evidence_type: primary_documentation
   notes: Maintainer documentation; use with current EntryPoint and bundler implementation details.
 - title: ERC-4337 Bundler Simulation Requirements
-  url: https://docs.erc4337.io/bundlers/simulation-requirements/
+  url: https://docs.erc4337.io/bundlers/simulation-requirements.html
   category: account_abstraction
   track: evm,wallet
   level: use_in_real_audits
@@ -182,7 +182,7 @@
   evidence_type: primary_documentation
   notes: Maintainer documentation; review actual feed config and protocol-side handling.
 - title: Wormhole Security
-  url: https://wormhole.com/security/
+  url: https://docs.wormhole.com/protocol/security/
   category: bridge_security
   track: bridge,multi_chain
   level: situational_advanced
