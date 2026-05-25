@@ -50,7 +50,9 @@ practical security value, maintenance, accessibility, and reputation.
 | [Token-2022](https://spl.solana.com/token-2022) | Token standard | Solana | Extension-heavy token surface. |
 | [Kontrol](https://kontrol.runtimeverification.com/) | Formal methods | EVM | Foundry-integrated formal verification using K semantics. |
 | [ItyFuzz](https://github.com/fuzzland/ityfuzz) | Fuzzing | EVM | Snapshot-based fuzzing and exploit-generation research. |
-| [TestMachine EVMbench](https://testmachine.ai/evmbench/) | AI benchmark | AI-assisted | Useful benchmark context for EVM exploit reasoning claims. |
+| [TestMachine EVMbench](https://testmachine.ai/evmbench/) | AI benchmark | AI-assisted | Benchmark context for EVM exploit reasoning claims; not an audit-tool endorsement. |
+| [Paradigm EVMbench](https://www.paradigm.xyz/2026/02/evmbench) | AI benchmark | AI-assisted | Research framing for EVM exploit-generation benchmarks. |
+| [Re-Evaluating EVMBench](https://arxiv.org/abs/2603.10795) | AI benchmark | AI-assisted | Cautionary paper for interpreting benchmark scores. |
 
 ## Paid / Certification
 
@@ -60,7 +62,7 @@ practical security value, maintenance, accessibility, and reputation.
 | [AuditBase](https://www.auditbase.com/) | Training/tools | EVM | Paid security learning and scanning options. |
 | [Offensive Security](https://www.offsec.com/) | General security | Full-stack | Useful for web, infra, and attacker methodology. |
 | [SANS SEC554](https://www.sans.org/cyber-security-courses/blockchain-smart-contract-security/) | Training | Protocol | Structured paid blockchain and smart contract security training. |
-| [Octane Security](https://www.octane.security/) | AI security | EVM | AI-assisted security analysis for critical code. |
+| [Octane Security](https://www.octane.security/) | AI security | EVM | Commercial AI security tool to evaluate carefully. |
 | [TRM Labs](https://www.trmlabs.com/) | Blockchain intelligence | Compliance | Investigations, monitoring, and wallet risk intelligence. |
 | [Chainalysis](https://www.chainalysis.com/) | Blockchain intelligence | Compliance | Investigations, compliance, and ecosystem intelligence. |
 | [Elliptic](https://www.elliptic.co/) | Blockchain intelligence | Compliance | Crypto risk intelligence and wallet screening. |

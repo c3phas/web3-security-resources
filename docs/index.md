@@ -1,35 +1,64 @@
+<section class="w3s-hero" markdown>
 # Web3 Security Resources 2026
 
-This guide is a curated, opinionated map for Web3 security work in 2026,
-maintained by **Raiders0786 / DigiBastion**. It is designed for beginners,
-smart contract auditors, protocol engineers, frontend security teams, incident
-responders, compliance/investigations teams, and researchers working across EVM,
-Solana, Move, Cairo/Starknet, and ZK systems.
+Curated Web3 security hub by **Raiders0786 / DigiBastion** for auditors,
+engineers, founders, incident responders, and researchers working across EVM,
+Solana, Move, Cairo/Starknet, ZK, frontends, infrastructure, investigations, and
+protocol operations.
+
+<div class="w3s-actions" markdown>
+[Start with roadmaps](#choose-your-track){ .w3s-button .w3s-button-primary }
+[Browse tools](resources/analysis-methods.md){ .w3s-button }
+[Threat intel alerts](https://www.digibastion.com/threat-intel?tab=subscribe){ .w3s-button }
+[VANTAGE](https://vantage.digibastion.com/){ .w3s-button }
+</div>
+</section>
 
 ![Protocol security lifecycle](assets/diagrams/protocol-security-lifecycle.svg)
 
 ## Choose Your Track
 
-| Track | Use it when |
-| --- | --- |
-| [Start From Zero](roadmaps/start-from-zero.md) | You need blockchain, Solidity, tools, and security mindset from first principles. |
-| [Solidity/EVM Auditor](roadmaps/solidity-evm-auditor.md) | You want to review Solidity systems, DeFi protocols, upgradeable contracts, and contest scopes. |
-| [Rust/Solana Auditor](roadmaps/solana-rust-auditor.md) | You review Solana programs, Anchor projects, Token-2022 integrations, and CPI/account-model risks. |
-| [Move Auditor](roadmaps/move-auditor.md) | You work on Aptos, Sui, Move resources, capabilities, and upgrade safety. |
-| [Cairo/Starknet Auditor](roadmaps/cairo-starknet-auditor.md) | You audit Cairo contracts, Starknet account abstraction, messaging, and bridge flows. |
-| [ZK Security](roadmaps/zk-security.md) | You review circuits, proof systems, constraint systems, and verifier integrations. |
-| [Protocol Security Engineer](roadmaps/protocol-security-engineer.md) | You own security from design through monitoring and incident response. |
-| [Full-Stack Web3 Security](roadmaps/full-stack-web3-security.md) | You secure DNS, web apps, wallets, APIs, package supply chain, and transaction UX. |
-| [AI-Assisted Auditor](roadmaps/ai-assisted-auditor.md) | You want practical LLM workflows without outsourcing judgment to the model. |
+<div class="w3s-grid" markdown>
+[**Start From Zero**<span>Blockchain, Solidity, tools, and security mindset from first principles.</span>](roadmaps/start-from-zero.md){ .w3s-card }
+[**Solidity/EVM Auditor**<span>Review DeFi, upgradeable contracts, accounting, oracles, and contest scopes.</span>](roadmaps/solidity-evm-auditor.md){ .w3s-card }
+[**Rust/Solana Auditor**<span>Account model, Anchor, Token-2022, PDAs, signers, and CPI risks.</span>](roadmaps/solana-rust-auditor.md){ .w3s-card }
+[**Move Auditor**<span>Aptos, Sui, resources, capabilities, object ownership, and upgrades.</span>](roadmaps/move-auditor.md){ .w3s-card }
+[**Cairo/Starknet Auditor**<span>Cairo contracts, account abstraction, messaging, and bridge assumptions.</span>](roadmaps/cairo-starknet-auditor.md){ .w3s-card }
+[**ZK Security**<span>Circuits, constraints, trusted setup, verifier integrations, and proof systems.</span>](roadmaps/zk-security.md){ .w3s-card }
+[**Protocol Security Engineer**<span>Threat modeling, launch readiness, monitoring, incident response, and governance.</span>](roadmaps/protocol-security-engineer.md){ .w3s-card }
+[**Full-Stack Web3 Security**<span>DNS, frontends, wallets, APIs, CI/CD, supply chain, and offchain controls.</span>](roadmaps/full-stack-web3-security.md){ .w3s-card }
+[**AI-Assisted Auditor**<span>Practical LLM workflows with verification-first guardrails.</span>](roadmaps/ai-assisted-auditor.md){ .w3s-card }
+</div>
 
 ## Core Coverage
 
-| Area | Start here |
-| --- | --- |
-| Static, dynamic, fuzzing, symbolic, formal, and AI analysis | [Analysis Methods](resources/analysis-methods.md) |
-| Frontend, API, DNS, cloud, CI/CD, and wallet UX security | [Offchain Security](resources/offchain-security.md) |
-| Blockchain intelligence, investigations, compliance, and sanctions/AML context | [Compliance & Investigations](resources/compliance-and-investigations.md) |
-| Monitoring, incident response, and emergency operations | [SOC & Monitoring](resources/soc-monitoring.md), [Incident Response](resources/incident-response.md) |
+<div class="w3s-grid" markdown>
+[**Analysis Methods**<span>Static analysis, dynamic review, fuzzing, symbolic execution, formal methods, and AI.</span>](resources/analysis-methods.md){ .w3s-card }
+[**Offchain Security**<span>Frontend, API, DNS, cloud, CI/CD, package, wallet UX, and support-surface security.</span>](resources/offchain-security.md){ .w3s-card }
+[**Compliance & Investigations**<span>Blockchain intelligence, sanctions/AML context, investigations, and fund tracing.</span>](resources/compliance-and-investigations.md){ .w3s-card }
+[**SOC & Monitoring**<span>Detection, alerting, protocol operations, emergency actions, and drift monitoring.</span>](resources/soc-monitoring.md){ .w3s-card }
+</div>
+
+## Maintainer Projects
+
+<div class="w3s-callouts" markdown>
+<div class="w3s-callout" markdown>
+<span class="w3s-badge">Free alerts</span>
+
+**[DigiBastion Threat Intel](https://www.digibastion.com/threat-intel)** tracks
+Web3, DeFi, supply-chain, OPSEC, personal-protection, vulnerability-disclosure,
+and tool-review updates. Founders, developers, and security engineers can
+subscribe to [daily, weekly, or immediate email alerts](https://www.digibastion.com/threat-intel?tab=subscribe).
+</div>
+
+<div class="w3s-callout" markdown>
+<span class="w3s-badge">External trust</span>
+
+**[VANTAGE by DigiBastion](https://vantage.digibastion.com/)** monitors external
+domain, DNS, frontend, phishing, and Web3 trust risk for teams that need
+evidence-backed remediation and recurring drift visibility.
+</div>
+</div>
 
 ## The Operating Model
 
@@ -65,7 +94,7 @@ flowchart LR
 - [SEAL Frameworks](https://frameworks.securityalliance.org/) for security operations and incident readiness.
 - [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs) for exploit reproduction and incident study.
 - [Pashov AI Web3 Security](https://github.com/pashov/ai-web3-security) for tracking AI audit tools and skills.
-- [TestMachine EVMbench](https://testmachine.ai/evmbench/) for AI EVM benchmark context and caveats.
+- [TestMachine EVMbench](https://testmachine.ai/evmbench/) for AI EVM benchmark context and caveats, not as a replacement for review.
 - [DigiBastion Threat Intel](https://www.digibastion.com/threat-intel) for Web3, DeFi, supply-chain, and operational-security alerts.
 - [VANTAGE by DigiBastion](https://vantage.digibastion.com/) for external domain, DNS, frontend, phishing, and Web3 trust-risk monitoring.
 

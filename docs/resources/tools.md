@@ -59,10 +59,11 @@
 | --- | --- | --- |
 | [Pashov AI Web3 Security](https://github.com/pashov/ai-web3-security) | Must learn | Curated AI Web3 security tools and skills list. |
 | [Pashov Skills](https://github.com/pashov/skills) | Use in real audits | Solidity auditor and x-ray skills for AI-assisted review. |
-| [Octane Security](https://www.octane.security/) | Paid / certification | AI security engineer for mission-critical code review. |
-| [Nethermind AuditAgent](https://auditagent.nethermind.io/) | Watchlist | AI audit agent for smart contract review. |
-| [audit.new](https://audit.new/) | Watchlist | AI-assisted audit workflow entry point. |
+| [Octane Security](https://www.octane.security/) | Paid / certification | Commercial AI security tool to evaluate with normal vendor diligence. |
+| [Nethermind AuditAgent](https://auditagent.nethermind.io/) | Watchlist | Nethermind-backed AI audit agent; verify outputs manually. |
 | [TestMachine EVMbench](https://testmachine.ai/evmbench/) | Watchlist | Benchmark context for AI EVM exploit reasoning. |
+| [Paradigm EVMbench](https://www.paradigm.xyz/2026/02/evmbench) | Watchlist | Research framing for EVM exploit-generation benchmarks. |
+| [Re-Evaluating EVMBench](https://arxiv.org/abs/2603.10795) | Watchlist | Cautionary paper for interpreting benchmark claims. |
 
 ## Chain-Specific Tooling
 

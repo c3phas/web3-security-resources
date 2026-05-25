@@ -24,6 +24,20 @@ popularity, or search-engine visibility.
 - **Watchlist**: Worth tracking, but verify claims and maintenance before relying
   on it for production decisions.
 
+## Trust Policy
+
+This catalog should not become free distribution for every new security startup,
+AI wrapper, or SEO landing page. A resource needs credible public proof before it
+is included: official documentation, open-source code, public audits or reports,
+recognized research, maintained standards, visible ecosystem usage, or a
+well-established security team behind it.
+
+Paid tools may appear when they solve a real security workflow and have enough
+public proof to evaluate, but they must be labeled clearly. AI audit products are
+tracked conservatively and never presented as replacements for manual review,
+testing, threat modeling, or exploit proof. A **Watchlist** item means "inspect
+and verify before relying on it," not endorsement.
+
 ## Verification Rules
 
 Every resource entry should include:

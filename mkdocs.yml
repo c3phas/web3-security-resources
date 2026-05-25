@@ -33,6 +33,28 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/__Raiders
+      name: Raiders0786 on X
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/raiders0786
+      name: Raiders0786 on Telegram
+    - icon: fontawesome/solid/shield-halved
+      link: https://www.digibastion.com/threat-intel
+      name: DigiBastion Threat Intel
+    - icon: fontawesome/solid/satellite-dish
+      link: https://vantage.digibastion.com/
+      name: VANTAGE by DigiBastion
+    - icon: fontawesome/brands/github
+      link: https://github.com/Raiders0786/web3-security-resources
+      name: GitHub repository
+
 markdown_extensions:
   - admonition
   - attr_list

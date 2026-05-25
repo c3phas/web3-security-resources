@@ -70,11 +70,12 @@ tests, traces, and manual reasoning.
 | --- | --- | --- |
 | [Pashov AI Web3 Security](https://github.com/pashov/ai-web3-security) | Must learn | Curated list of AI Web3 security tools and skills. |
 | [Pashov Skills](https://github.com/pashov/skills) | Use in real audits | Solidity auditor and x-ray skills for AI-assisted review. |
-| [Octane Security](https://www.octane.security/) | Paid / certification | AI-assisted security review for mission-critical code. |
-| [Nethermind AuditAgent](https://auditagent.nethermind.io/) | Watchlist | AI audit agent for smart contract review. |
-| [audit.new](https://audit.new/) | Watchlist | AI-assisted audit workflow entry point. |
+| [Octane Security](https://www.octane.security/) | Paid / certification | Commercial AI-assisted review tool to evaluate carefully. |
+| [Nethermind AuditAgent](https://auditagent.nethermind.io/) | Watchlist | Nethermind-backed AI audit agent; verify outputs manually. |
 | [TestMachine EVMbench](https://testmachine.ai/evmbench/) | Watchlist | Benchmark context for AI EVM security performance. |
+| [Paradigm EVMbench](https://www.paradigm.xyz/2026/02/evmbench) | Watchlist | Research framing for EVM exploit-generation benchmarks. |
 | [OpenAI EVMbench](https://openai.com/index/introducing-evmbench/) | Watchlist | Benchmark framing for evaluating EVM exploit reasoning. |
+| [Re-Evaluating EVMBench](https://arxiv.org/abs/2603.10795) | Watchlist | Cautionary paper for interpreting EVMbench-style results. |
 
 ## Pentesting and Offchain Review
 

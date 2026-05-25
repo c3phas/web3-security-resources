@@ -76,6 +76,11 @@ The deployed site is configured for:
 https://raiders0786.github.io/web3-security-resources/
 ```
 
+Deployment uses GitHub Actions. If Pages deployment reports that the Pages site
+does not exist, configure the repository under `Settings -> Pages -> Build and
+deployment -> Source -> GitHub Actions`; the workflow also asks GitHub to enable
+Pages automatically.
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md). New resources must include a

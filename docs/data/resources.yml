@@ -546,7 +546,7 @@
   level: paid_certification
   free_or_paid: paid
   last_verified: 2026-05-25
-  why_it_matters: AI-assisted security analysis for mission-critical code.
+  why_it_matters: Commercial AI-assisted security tool to evaluate with normal vendor diligence.
   status: active
 - title: TestMachine EVMbench
   url: https://testmachine.ai/evmbench/
@@ -555,7 +555,7 @@
   level: watchlist
   free_or_paid: free
   last_verified: 2026-05-25
-  why_it_matters: Benchmark context for evaluating AI EVM exploit reasoning claims.
+  why_it_matters: Benchmark context for evaluating AI EVM exploit reasoning claims, not an audit-tool endorsement.
   status: active
 - title: OpenAI EVMbench
   url: https://openai.com/index/introducing-evmbench/
@@ -566,6 +566,24 @@
   last_verified: 2026-05-25
   why_it_matters: Benchmark framing for EVM exploit reasoning and generation.
   status: active
+- title: Paradigm EVMbench
+  url: https://www.paradigm.xyz/2026/02/evmbench
+  category: ai_benchmark
+  track: evm,ai_assisted
+  level: watchlist
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Research framing for EVM exploit-generation benchmarks.
+  status: active
+- title: Re-Evaluating EVMBench
+  url: https://arxiv.org/abs/2603.10795
+  category: ai_benchmark
+  track: evm,ai_assisted
+  level: watchlist
+  free_or_paid: free
+  last_verified: 2026-05-25
+  why_it_matters: Cautionary benchmark paper for interpreting EVMbench-style results and AI audit claims.
+  status: active
 - title: Nethermind AuditAgent
   url: https://auditagent.nethermind.io/
   category: ai_security
@@ -573,16 +591,7 @@
   level: watchlist
   free_or_paid: free
   last_verified: 2026-05-25
-  why_it_matters: AI audit agent for smart contract review workflows.
-  status: active
-- title: audit.new
-  url: https://audit.new/
-  category: ai_security
-  track: ai_assisted
-  level: watchlist
-  free_or_paid: free
-  last_verified: 2026-05-25
-  why_it_matters: AI-assisted audit workflow entry point.
+  why_it_matters: Nethermind-backed AI audit agent to track carefully while manually verifying outputs.
   status: active
 - title: Kontrol
   url: https://kontrol.runtimeverification.com/
